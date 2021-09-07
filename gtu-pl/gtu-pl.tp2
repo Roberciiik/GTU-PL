@@ -1,0 +1,146 @@
+// Baldur's Gate: Korekta dialogów
+
+BACKUP ~gtu-pl/backup~
+SUPPORT ~TBD~
+VERSION ~0.1~
+README ~gtu-pl/readme.html~
+ASK_EVERY_COMPONENT
+
+ALWAYS
+    OUTER_TEXT_SPRINT ~TEMP_FOLDER~ ~%MOD_FOLDER%/temp~
+	MKDIR ~%TEMP_FOLDER%~
+
+    ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+        ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+            "polish" => "CP1250"
+        END
+        ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN /*dialog-bgee dialog-bg2ee journal */END
+        ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup dialog-bg2 END
+        LAF ~HANDLE_CHARSETS~
+            INT_VAR
+                infer_charsets = 0
+            STR_VAR
+                tra_path = "gtu-pl/tra"
+                iconv_path = "gtu-pl/bin/iconv"
+                charset_table = charsetsTable
+                reload_array = charsetsReloadArray
+                noconvert_array = charsetsNoConvertArray
+        END
+    END
+END
+
+LANGUAGE
+	~Polski~
+	~polish~
+	~gtu-pl/tra/polish/setup.tra~
+
+BEGIN @1
+    DESIGNATED 0
+    REQUIRE_PREDICATE (GAME_IS "bgt tob") @9
+    REQUIRE_COMPONENT ~setup-bg2fixpack~ ~0~ @5
+
+    FAIL @3
+
+/*    INCLUDE ~bgpp-dialog/tpa/bg2-string-set.tpa~
+
+    ACTION_IF (GAME_IS ~bgt~) THEN BEGIN
+        FAIL @3
+    END
+    ELSE ACTION_IF (GAME_IS "tob") THEN BEGIN // Classic BG2
+        // Nothing to do...
+    END
+
+    COPY_EXISTING ~plat08.itm~ ~override/plat08.itm~
+        SAY NAME2 @20007
+        SAY DESC @20008
+
+    COPY_EXISTING ~slng03.itm~ ~override/slng03.itm~
+        SAY NAME2 @20009
+        SAY DESC @20010*/
+
+BEGIN @4
+    DESIGNATED 1
+    REQUIRE_PREDICATE (GAME_IS "bgee") @9
+
+    ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN
+        FAIL @2
+    END
+
+    WITH_TRA ~gtu-pl/tra/polish/dialog-bgee.tra~ BEGIN
+        INCLUDE ~gtu-pl/tpa/bgee-string-set.tpa~
+        ACTION_IF (GAME_INCLUDES "sod") THEN BEGIN
+            INCLUDE ~gtu-pl/tpa/sod-string-set.tpa~
+        END
+    END
+
+    WITH_TRA ~gtu-pl/tra/polish/journal.tra~ BEGIN
+        // Added "Chapter 1" to the journal
+        COPY_EXISTING ~ch1cut04.bcs~ ~override/ch1cut04.bcs~
+            DECOMPILE_BCS_TO_BAF
+            REPLACE ~16190~ @116190
+            COMPILE_BAF_TO_BCS
+
+        // Added "Chapter 2" to the journal
+        COPY_EXISTING ~AR4800.bcs~ ~override/AR4800.bcs~
+                    ~AR4900.bcs~ ~override/AR4900.bcs~
+                    ~AR5400.bcs~ ~override/AR5400.bcs~
+            DECOMPILE_BCS_TO_BAF
+            REPLACE ~15836~ @115836
+            COMPILE_BAF_TO_BCS
+
+        // Added "Chapter 3" to the journal
+        COPY_EXISTING ~AR5404.bcs~ ~override/AR5404.bcs~
+                    ~AR5405.bcs~ ~override/AR5405.bcs~
+            DECOMPILE_BCS_TO_BAF
+            REPLACE ~15837~ @115837
+            COMPILE_BAF_TO_BCS
+
+        // Added "Chapter 4" to the journal
+        COPY_EXISTING ~BALDUR.bcs~ ~override/BALDUR.bcs~
+            DECOMPILE_BCS_TO_BAF
+            REPLACE ~15838~ @115838
+            COMPILE_BAF_TO_BCS
+
+        // Added "Chapter 5" to the journal
+        COPY_EXISTING ~AR1803.bcs~ ~override/AR1803.bcs~
+                    ~ENDCH4.bcs~ ~override/ENDCH4.bcs~
+                    ~DAVCUT01.bcs~ ~override/DAVCUT01.bcs~
+            DECOMPILE_BCS_TO_BAF
+            REPLACE ~15839~ @115839
+            COMPILE_BAF_TO_BCS
+
+        // Added "Chapter 6" to the journal
+        COPY_EXISTING ~DELTAN.dlg~ ~override/DELTAN.dlg~
+            DECOMPILE_DLG_TO_D
+            REPLACE ~15840~ @115840
+            COMPILE_D_TO_DLG
+            
+        // Added "Chapter 7" to the journal
+        COPY_EXISTING ~AR2626.bcs~ ~override/AR2626.bcs~
+            DECOMPILE_BCS_TO_BAF
+            REPLACE ~15841~ @115841
+            COMPILE_BAF_TO_BCS
+
+        // Add missing journal titles
+        INCLUDE ~gtu-pl/tph/add-journal-title.tph~
+        LAUNCH_ACTION_FUNCTION ~ADD_JOURNAL_TITLE~
+            STR_VAR Array = "gtu-pl/2da/journal-titles.2da"
+        END
+    END
+
+BEGIN @6
+    DESIGNATED 2
+    REQUIRE_PREDICATE (GAME_IS "bg2ee") @9
+
+    FAIL @3
+    
+BEGIN @7
+    DESIGNATED 3
+    REQUIRE_PREDICATE (GAME_IS "eet") @9
+
+    // Differences between BG:EE(SoD) and EET is easy: the stringref number of EET is 200,000 + the number of BG:EE(SoD).
+    // For BGII(:EE), stringrefs between BGII:EE and EET are the same.
+    // Thus, if your BG:EE stringref is #15993, for EET it is #215993.
+    // Dealing with this by doing it via OUTER_SET variables.
+
+    FAIL @3

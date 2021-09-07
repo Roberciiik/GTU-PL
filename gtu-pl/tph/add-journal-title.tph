@@ -1,0 +1,29 @@
+
+// String arg 'Array': path to 2da file with strrefs numbers
+DEFINE_ACTION_FUNCTION ADD_JOURNAL_TITLE
+STR_VAR
+    Array = ""
+BEGIN
+    VERBOSE
+    ACTION_IF !("%Array%" STRING_EQUAL "") BEGIN
+        COPY ~%Array%~ ~%TEMP_FOLDER%/%Array%~
+            COUNT_2DA_ROWS 2 COUNT
+            WHILE (COUNT > 1) BEGIN
+                SET ROW = COUNT - 1
+                READ_2DA_ENTRY ROW 0 2 StrRef
+                READ_2DA_ENTRY ROW 1 2 AtRef
+                INNER_ACTION BEGIN
+                    OUTER_SPRINT Reference (AT "%AtRef%")
+
+                    ACTION_GET_STRREF StrRef Male
+                    ACTION_GET_STRREF_F StrRef Female
+                
+                    OUTER_SPRINT OutMale ~%Reference%~^~%Male%~
+                    OUTER_SPRINT OutFemale ~%Reference%~^~%Female%~
+                    
+                    STRING_SET_EVALUATE StrRef ~%OutMale%~ ~%OutFemale%~
+                END
+                SET COUNT = COUNT - 1
+            END
+    END
+END

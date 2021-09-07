@@ -1,0 +1,7 @@
+
+// 'Quaffs potion' without * *
+STRING_SET 31249 @10004
+
+// Pije -> Gulp!
+STRING_SET 16233 @10005
+STRING_SET 26240 @10005

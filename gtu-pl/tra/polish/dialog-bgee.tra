@@ -1,0 +1,79 @@
+
+//@10000 = ~~
+//@10001 = ~~
+//@10002 = ~~
+//@10003 = ~~
+@10004 = ~£yka miksturê~
+@10005 = ~Gulp!~
+//@10006 = ~~
+//@10007 = ~~
+//@10008 = ~~
+//@10009 = ~~
+//@10010 = ~~
+//@10011 = ~~
+//@10012 = ~~
+//@10013 = ~~
+//@10014 = ~~
+//@10015 = ~~
+//@10016 = ~~
+//@10017 = ~~
+@10018 = ~M³ot bojowy jest ca³y wykonany ze stali, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 60 cm d³ugoœci. Ten model m³ota jest specjalnie wywa¿ony co pozwala nim efektywnie rzucaæ.
+
+PARAMETRY:
+
+Obra¿enia (walka wrêcz): 1k3 +1 
+Obra¿enia (rzucony): 1k4 +1
+Typ obra¿eñ (walka wrêcz): obuchowe
+Typ obra¿eñ (rzucony): pocisk
+OpóŸnienie: 3
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 2~
+@10019 = ~Tak jak inne m³oty bojowe, ten te¿ zosta³ wykonany ca³kowicie ze stali, z krusz¹cym koœci m³otem osadzonym na prawie pó³metrowym trzonku. Zosta³ on te¿ obdarzony pewnymi w³aœciwoœciami magicznymi, przez co jeszcze lepiej sprawuje siê w walce. Ten konkretny model m³ota jest specjalnie wywa¿ony co pozwala nim efektywnie rzucaæ.
+
+PARAMETRY:
+
+Obra¿enia (walka wrêcz): 1k3 +2 
+Obra¿enia (rzucony): 1k4 +2
+TraK0: +1
+Typ obra¿eñ (walka wrêcz): obuchowe
+Typ obra¿eñ (rzucony): pocisk
+OpóŸnienie: 2
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 1~
+@10020 = ~M³ot bojowy jest ca³y wykonany ze stali, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 50 cm d³ugoœci. Potê¿na energia magiczna przep³ywa przez tê broñ, choæ jej pochodzenie jest nieznane. Ten model m³ota jest specjalnie wywa¿ony co pozwala nim efektywnie rzucaæ. Dziêki zawartej w nim magii, po rzucie wraca do w³aœciciela niczym bumerang.
+
+PARAMETRY:
+
+Specjalne:
+– Po rzucie wraca do w³aœciciela
+
+Obra¿enia: 1k4 +3
+TraK0: +2
+Typ obra¿eñ (walka wrêcz): obuchowe
+Typ obra¿eñ (rzucony): pocisk
+OpóŸnienie: 1
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 3~
+@10021 = ~U¿ywa pierœcienia~
+@10022 = ~U¿ywa zwoju~
+@10023 = ~U¿ywa ró¿d¿ki~
+@10024 = ~Próbuje ukryæ siê w cieniu~
+@10025 = ~Próbuje wykryæ iluzje~
+@10026 = ~Odpêdza nieumar³ych~
+@10027 = ~Przyzywa wilki~
+@10028 = ~U¿ywa butelki z olejem~
