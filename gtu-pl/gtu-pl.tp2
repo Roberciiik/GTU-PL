@@ -14,7 +14,6 @@ ALWAYS
         ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
             "polish" => "CP1250"
         END
-        ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN /*dialog-bgee dialog-bg2ee journal */END
         ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup dialog-bg2 END
         LAF ~HANDLE_CHARSETS~
             INT_VAR
@@ -23,7 +22,6 @@ ALWAYS
                 tra_path = "gtu-pl/tra"
                 iconv_path = "gtu-pl/bin/iconv"
                 charset_table = charsetsTable
-                reload_array = charsetsReloadArray
                 noconvert_array = charsetsNoConvertArray
         END
     END
