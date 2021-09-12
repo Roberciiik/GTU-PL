@@ -1,7 +1,37 @@
 
-// 'Quaffs potion' without * *
-STRING_SET 31249 @10004
+// zostawi³ -> zostawi³a
+STRING_SET 9662 @10000
+
+// ja -> j¹
+STRING_SET 16789 @10001
+
+// ...” -> ”...
+STRING_SET 15141 @10002
+STRING_SET 15144 @10003
 
 // Pije -> Gulp!
 STRING_SET 16233 @10005
 STRING_SET 26240 @10005
+
+// *To* -> TO
+STRING_SET 31563 @10006
+
+// Removed '-Pocz¹tek' from save file name
+STRING_SET 32733 @10007
+
+// Tanar'ri -> tanar'ri
+// .” -> ”.
+STRING_SET 27131 @10008
+
+// Params in new line
+STRING_SET 17667 @10009
+
+// grrrrrrrr -> Grrrrrrrr!
+STRING_SET 29955 @10010
+
+// syren* -> sirin*
+ALTER_TLK_LIST BEGIN
+    10144 15188 26919 26920 31307
+END BEGIN
+    REPLACE_TEXTUALLY ~syren~ ~sirin~
+END

@@ -37,9 +37,7 @@ BEGIN @1
     REQUIRE_PREDICATE (GAME_IS "bgt tob") @9
     REQUIRE_COMPONENT ~setup-bg2fixpack~ ~0~ @5
 
-    FAIL @3
-
-/*    INCLUDE ~bgpp-dialog/tpa/bg2-string-set.tpa~
+    INCLUDE ~bgpp-dialog/tpa/bg2-string-set.tpa~
 
     ACTION_IF (GAME_IS ~bgt~) THEN BEGIN
         FAIL @3
@@ -51,10 +49,12 @@ BEGIN @1
     COPY_EXISTING ~plat08.itm~ ~override/plat08.itm~
         SAY NAME2 @20007
         SAY DESC @20008
+        BUT_ONLY IF_EXISTS
 
     COPY_EXISTING ~slng03.itm~ ~override/slng03.itm~
         SAY NAME2 @20009
-        SAY DESC @20010*/
+        SAY DESC @20010
+        BUT_ONLY IF_EXISTS
 
 BEGIN @4
     DESIGNATED 1

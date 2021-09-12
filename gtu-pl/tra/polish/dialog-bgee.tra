@@ -1,15 +1,22 @@
 
-//@10000 = ~~
-//@10001 = ~~
-//@10002 = ~~
-//@10003 = ~~
-@10004 = ~£yka miksturê~
+@10000 = ~Sama tego nie widzia³am, ale jeden facet w Sp³onionej Syrenie to widzia³ i za dziesiêæ sztuk z³ota gotów jest wszystko opowiedzieæ. Nazywa siê Ivanne i gdybym by³a tob¹, <CHARNAME>, wys³ucha³abym, co ma do powiedzenia, a mnie zostawi³a moim sprawom.~
+@10001 = ~Teraz musimy zabraæ g³owê bestii i zanieœæ j¹ do Œwi¹tyni Poranka w Beregoœcie. Tam otrzymamy nasz¹ nagrodê.~
+@10002 = ~„Historia Rzeki Jednoro¿ca”... Jak cudownie! Nie wyobra¿acie sobie nawet, jak bardzo jestem wdziêczna, ¿e mi j¹ przynieœliœcie. Proszê, oto magiczny pergamin, który dosta³am od przyjaciela. Mam nadziejê, ¿e wam siê przyda.~
+@10003 = ~„Historia Rzeki Jednoro¿ca”... Interesuj¹ce... Dam wam za to osiemdziesi¹t sztuk z³ota.~
+// @10004 = ~~
 @10005 = ~Gulp!~
-//@10006 = ~~
-//@10007 = ~~
-//@10008 = ~~
-//@10009 = ~~
-//@10010 = ~~
+@10006 = ~„Ale skoro pytasz, to dobrze by mnie by³o trochê podleczyæ. Trochê mi siê krew psuje... nie chcesz chyba odes³aæ mnie z powrotem w sfery, co? TO by by³ dopiero wstyd...”~
+@10007 = ~000000011-Rozdzia³-4~
+@10008 = ~W œrodku Wie¿y Durlaga, spotkaliœmy Graela, ghula o wielkiej mocy. Przestrzeg³ nas przed czymœ, co jest nazywane tanar'ri i przed straszliwym „œmiercionoœnym spojrzeniem”, którym ta istota w³ada. „Spojrzenie, które nie jest spojrzeniem”. Zabrzmia³o to nawet groŸniej, ni¿ opowieœci o wzroku bazyliszka. Zastanawiam siê, czy w takim razie tradycyjne zabezpieczenia bêd¹ przeciw niemu skuteczne. Powinniœmy o tym pamiêtaæ, chocia¿ w¹tpiê, ¿ebyœmy kiedykolwiek natknêli siê na tê istotê. Minê³y ca³e wieki od czasu, gdy Grael stoczy³ swoj¹ bitwê.~
+@10009 = ~Po ca³kowitym spo¿yciu, mikstura ta przywraca 9 punktów ¿ycia. Efekt jest natychmiastowy, a mikstura ulega zniszczeniu po u¿yciu.
+
+PARAMETRY:
+
+Specjalne:
+– Przywraca 9 punktów ¿ycia
+
+Waga: 1~
+@10010 = ~Grrrrrrrr!~
 //@10011 = ~~
 //@10012 = ~~
 //@10013 = ~~
@@ -69,11 +76,11 @@ Wymagania:
 – Si³a: 6
 
 Waga: 3~
-@10021 = ~U¿ywa pierœcienia~
-@10022 = ~U¿ywa zwoju~
-@10023 = ~U¿ywa ró¿d¿ki~
-@10024 = ~Próbuje ukryæ siê w cieniu~
-@10025 = ~Próbuje wykryæ iluzje~
-@10026 = ~Odpêdza nieumar³ych~
-@10027 = ~Przyzywa wilki~
-@10028 = ~U¿ywa butelki z olejem~
+//@10021 = ~~
+//@10022 = ~~
+//@10023 = ~~
+//@10024 = ~~
+//@10025 = ~~
+//@10026 = ~~
+//@10027 = ~~
+//@10028 = ~~

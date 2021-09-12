@@ -1,0 +1,209 @@
+
+@20000 = ~Gin¹ drobiazgi. Tu puchar, tam srebrna zastawa, albo parê z³otych monet nale¿¹cych do s³u¿¹cych. Wszystkie przedmioty maj¹ pewn¹ wartoœæ, ale niezbyt wielk¹.~
+@20001 = ~Nie ³¿yj, czarodzieju! Natychmiast oddaj aktora i klejnot!~
+@20002 = ~Ale musisz dostaæ siê do wewn¹trz. Obserwator ma pewn¹ niszê, w której trzyma swoje skarby... tê ró¿d¿kê te¿. Istnieje pewien bezpieczny sposób, ¿eby siê do tej niszy dostaæ.~
+@20003 = ~Tak... mam przy sobie po³owê ró¿d¿ki.~
+@20004 = ~Kusza to ³uk umieszczony w poprzek drewnianego b¹dŸ metalowego trzonka, zwykle wykonany z jesionu lub cisu. Strzela be³tami. Ta magiczna kusza jest elegancka i lekka, i prawie nie ma odrzutu.
+
+PARAMETRY:
+
+Obra¿enia: +2 (pocisk)
+TraK0: +2
+Waga: 5
+OpóŸnienie: 3
+Rodzaj bieg³oœci: kusza
+Typ broni: 2-rêczna
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@20005 = ~O! T-to... to o tobie wszyscy mówi¹, czy¿ nie. T-to... tobie uda³o siê powstrzymaæ druidów i d¿innów. Mo-mo¿e... mo¿e mo¿esz mi pomóc...~
+@20006 = ~Tarcza rodziny Delrynów +1
+
+To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. Oprócz magicznej ochrony tarcza promieniuje aur¹, któr¹ zapewnia osobie, która jej u¿ywa, odpornoœæ na ogieñ i zimno. W celu ochrony przed atakami z dystansu, Anomen mo¿e u¿yæ tej tarczy, ¿eby wznieœæ pole energetyczne. Taka ochrona przed pociskami mo¿e byæ u¿yta 3 razy na dzieñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ +30% do odpornoœci na ogieñ
+ +30% do odpornoœci na zimno
+ Trzy razy dziennie mo¿e rzuciæ czar Ochrona przed pociskami.~
+@20007 = ~Praktyczny obroñca +3~
+@20008 = ~Zbroja p³ytowa +3: 'Praktyczny obroñca'
+
+Nieustannie podró¿uj¹cy poszukiwacz przygód nie móg³by zapewne ¿yczyæ sobie lepszej zbroi. Ten pancerz, specjalnie i za WIELKIE pieni¹dze zamówiony przez Bolhura "Grzmi¹cy topór", by³ jego ulubionym, chocia¿ nie najbardziej ozdobnym. Niezwykle praktyczny Bolhur za¿¹da³ zbroi, która dawa³aby znakomit¹ ochronê, a jednoczeœnie jak najmniej go krêpowa³a. Przez "krêpowanie" rozumia³ nie tylko ograniczenia ruchu czy wagê: jego idealna zbroja mia³a wytrzymywaæ trudy podró¿y nie wymagaj¹c ci¹g³ego czyszczenia i konserwacji. Nie znaczy to wcale, ¿e Bolhur "Grzmi¹cy topór" zaniedbywa³ swoje zbroje - by³oby to twierdzenie mocno przesadzone - ale surowy re¿im plucia i polerowania, wymagany przy "jaœniepañskich" zbrojach, by³ bardzo odleg³y jego naturze. Poz³oty i ozdóbki pe³nych zbroi pñytowych niech s³u¿¹ królom i g³owom pañstw - pracujacy krasnolud bardziej ceni praktycznoœæ ni¿ piêkny wygl¹d.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Waga: 18
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@20009 = ~Zguba smoków Arli +3~
+@20010 = ~Proca +3: 'Zguba smoków Arli'
+
+Nikt nie zna lepiej od nizio³ków wartoœci dobrze wymierzonego kamienia, gdy przychodzi zmierzyæ siê z wiêkszym przeciwnikiem. Ta proca nale¿a³a do m³odej kobiety o imieniu Arla Pewny Krok, jednej z niewielu nizio³ków, którzy opuœcili domowe ogniska w poszukiwaniu przygód. Legenda opowiada o maleñkiej Arli u¿ywaj¹cej tej procy by pos³aæ na wylot ostry kamieñ przez g³owê lec¹cego zielonego smoka, choæ ta sama legenda opowiadana w innej tawernie mówi o zadniej czêœci smoczego cia³a, by wywo³aæ bardziej humorystyczny ni¿ zabójczy efekt. Wynika z tego, ¿e nizio³ki preferuj¹ rozrywkê ni¿ wiernoœæ historyczn¹.
+
+PARAMETRY:
+
+Obra¿enia: +3
+TraK0: +3
+Waga: 0
+OpóŸnienie: 3
+Rodzaj bieg³oœci: proca
+Typ broni: 1-rêczna~
+@20011 = ~W³os olbrzyma +3~
+@20012 = ~Ciê¿ka kusza +3: 'W³os olbrzyma'
+
+Choæ trudno to potwierdziæ, to mówi siê, ¿e ciêciwa tej kuszy jest wykonana z w³osa lodowego olbrzyma. Niewa¿ne czy to prawda, ale nies³ychanie trudno j¹ naci¹gn¹æ, ale jej celnoœæ i powodowane obra¿enia warte s¹ potrzebnego naci¹gu (si³a 15 lub wiêcej).
+
+PARAMETRY:
+
+Obra¿enia: +5
+TraK0: +3
+Waga: 11
+OpóŸnienie: 7
+Rodzaj bieg³oœci: kusza
+Typ broni: 2-rêczna
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@20013 = ~Zbadaj co siê dzieje na zapleczu Miedzianego Diademu
+
+W³aœciciel gospody Pod Miedzianym Diademem pozwoli³ mi wejœæ na zaplecze swojej ober¿y. Ciekawe jakie ukrywa tam tajemnice... albo co siê tam dzieje nielegalnego...~
+@20014 = ~Pomocy!~
+@20015 = ~Kim... kim jesteœ? Co siê ze mn¹ sta³o?~
+@20016 = ~(G³os rozeœmiewa siê.)
+Nie mogê ujawniæ wszystkiego. Udowodnij sw¹ wartoœæ – znajdŸ Quallo. Rozmawiaæ bêdziemy przez to naczynie. Ale ostro¿nie! Zamki musz¹ zostaæ prze³amane w odpowiedniej kolejnoœci.~
+@20017 = ~Jestem Hendak, dumny wojownik z pó³nocy. Schwytali mnie handlarze niewolników. Wiê¿¹ mnie d³u¿ej ni¿ któregokolwiek z tych ludzi i prze¿y³em, choæ z wielkim trudem.~
+@20018 = ~Dobrze, dobrze... odejdê, odejdê... tylko pozwól mi zebraæ mój dobytek...~
+@20019 = ~Daj... daj to temu ma³emu przeklêtemu diab³u i powiedzcie mu, aby omija³ moje domostwo!~
+@20020 = ~Nic dziwnego, ¿e nawiedza ciê duch - przecie¿ to ten ma³y ch³opiec, którego zamordowa³eœ, nieprawda¿? Zwróæ jego misia... natychmiast.~
+@20021 = ~Och... eee, nie wiem. Nie mam pewnoœci. Wybaczcie, ale tak siê sk³ada, ¿e to mój prywatny pokój... moglibyœcie wyjœæ?~
+@20022 = ~Dobrze ju¿, dobrze... wychodzê.~
+@20023 = ~Och... to znowu ty. Czego chcesz tym razem?~
+@20024 = ~Och... rozumiem...~
+@20025 = ~Aach! Och... wybaczcie... Myœla³em, ¿e to znowu ten przeklêty duch...!~
+@20026 = ~Och... dobrze. Wrócê za jakieœ siedem godzin z twoj¹ nagrod¹. Eee... potem bêdzie ju¿ mo¿na j¹ odebraæ, kiedy tylko bêdziesz w pobli¿u.~
+@20027 = ~Och, tak... niestety. Och... duch czasami przybywa mnie drêczyæ. Straszna, przera¿aj¹ca sprawa, doprawdy.~
+@20028 = ~Nie ka¿ mi zni¿aæ siê do gróŸb. Pomó¿ mi.~
+@20029 = ~Na Umberlee! Co Galvena sobie myœli? Zabójstwa w Wulgarnej Ma³pie! Ta nieokrzesana ¿mija!~
+@20030 = ~Ta kolczuga, od dawien dawna w³asnoœæ rodu Corthala, chroni nosz¹cego j¹ przed wszystkimi rodzajami ataków. Zbroja jest magiczna i zapewnia premiê +3 do Klasy Pancerza Valygara. Daje te¿ premiê do odpornoœci na kwas, ogieñ i obra¿enia magiczne. Dopóki Valygar ma na sobie tê zbrojê, jest te¿ odporny na zauroczenia. Niewiele osób mo¿e j¹ na siebie za³o¿yæ, gdy¿ dopasowano j¹ specjalnie do sylwetki Valygara.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Specjalne:
+ Odpornoœæ na Zauroczenia
+ +25% do odpornoœci na ogieñ, kwas i obra¿enia magiczne
+Waga: 9
+Mo¿e u¿ywaæ:
+ Valygar~
+@20031 = ~Hmmm... co ja widzê, szkodniki. ChodŸcie, moi piêkniutcy niewolnicy. To nie s¹ zbiegli wiêŸniowie... to najeŸdŸcy! Musimy zniszczyæ ich w imiê mojego w³adcy!~
+@20032 = ~Wezwijcie Pana Niewolników... chcê wiedzieæ, co siê tutaj dzieje. Rozedrê ca³¹ tê sferê na strzêpy, ale dostanê tych plugawych niewolników! Obedrê ich ¿ywcem ze skóry...~
+@20033 = ~...co to? Nie jesteœcie moimi stra¿nikami! To... to wy!! Sprawiacie same problemy!! Przez resztê wiecznoœci bêdziecie cierpieæ pod moim okiem!!~
+@20034 = ~D³ugi miecz +2: 'Adjatha Wysysacz'
+
+Ten miecz nale¿a³ do Dabbara, dawno zmar³ego s³ugi Bhaala, który kontrolowa³ swoje s³ugi w bardzo brutalny sposób. Oprócz tego, ¿e miecz wzmacnia umys³ przed podstêpami innych osób, to dodatkowo absorbuje energiê ¿yciow¹ przeciwnika po ka¿dym udanym trafieniu i uzdrawia w³aœciciela. Jeœli powraca³ z bitwy choæby zadraœniêty, Dabbar wini³ za to swoich oficerów i, podczas gdy reszta kompanii siê przygl¹da³a, wymierza³ im ch³ostê, dopóki nie wyleczy³ siê ca³kowicie.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ Odpornoœæ na Zauroczenie i Dominacjê
+ Ka¿de trafienie przywraca w³aœcicielowi 1 punkt ¿ycia
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@20035 = ~I to sprawia, ¿e stanowisz dla siebie zagro¿enie? Znam wiele osób, którzy nie odró¿niliby swego ty³ka od wykopanej w ziemi dziury. I ca³kiem nieŸle sobie radz¹.~
+@20036 = ~Wszyscy razem... wszyscy razem i walczymy... jemu spodoba siê ten test. Wiem. Teleportujê nas na wprost przed nim i w ten sposób go zaskoczymy!~
+@20037 = ~Nie s¹ mi potrzebni, ale pomyœla³em, ¿e ci, których torturowa³eœ chêtnie wezm¹ udzia³ w twojej klêsce.~
+@20038 = ~A dlaczego nie mamy 'wystarczaj¹co du¿o czasu'? Sk¹d ten poœpiech?~
+@20039 = ~"Dwa"...~ [Dream414]
+@20040 = ~"Trzy"...~ [Dream415]
+@20041 = ~"Cztery"...~ [Dream416]
+@20042 = ~"Piêæ"!~ [Dream417]
+@20043  = ~Opuszczam wyspê
+
+NajwyraŸniej Saemon Havarian mia³ na myœli w³asny interes gdy proponowa³ mi transport do Lasów Tethyru. Desharik, w³adca piratów, przej¹³ jego statek... Havarian na pewno o tym wiedzia³ kiedy sk³ada³ mi swoj¹ propozycjê. Zamierza ukraœæ okrêt Desharikowi... a ja mam ukraœæ róg, który otwiera morskie wrota. W nocy ten róg znajduje siê w domu przyjació³ki Desharika, Cayii. To na zachodzie, na drugim poziomie. Mam siê spotkaæ z Saemonem w porcie gdy zdobêdê róg. Jeœli szybko siê z tym uporamy, dostanê klingê, któr¹ mia³ wczeœniej Irenicus. Ten miecz wyraŸnie niepokoi Havariana.~
+@20044 = ~Jestem w³adc¹ tej wyspy, a ty podkopujesz mój autorytet w ka¿dym jej zak¹tku! Oszustwa handlowe, romanse, a teraz nawet mój w³asny okrêt!~
+@20045 = ~Nie chcê tych twoich 'darów'.~
+@20046 = ~Co takiego... ludzie-rekiny? S³ysza³em o tych stworach... sahuagin, tak siê je chyba nazywa. Z³e potwory, które pustosz¹ wybrze¿a. Ale nie mogê zrozumieæ, o co im chodzi...~
+@20047 = ~Mów mi jeszcze, baronie Thelokassyil. Czy zatem powinniœmy zwróciæ dar Sekolaha?~
+@20048 = ~(chichocze)~
+
+//
+
+@1006073 = ~Pierœcieñ szaleñstwa~
+@1007818 = ~Zguba smoków Arli +3~
+@1039519 = ~Proca +3: 'Zguba smoków Arli'
+
+Nikt nie zna lepiej od nizio³ków wartoœci dobrze wymierzonego kamienia, gdy przychodzi zmierzyæ siê z wiêkszym przeciwnikiem. Ta proca nale¿a³a do m³odej kobiety o imieniu Arla Pewny Krok, jednej z niewielu nizio³ków, którzy opuœcili domowe ogniska w poszukiwaniu przygód. Legenda opowiada o maleñkiej Arli u¿ywaj¹cej tej procy by pos³aæ na wylot ostry kamieñ przez g³owê lec¹cego zielonego smoka, choæ ta sama legenda opowiadana w innej tawernie mówi o zadniej czêœci smoczego cia³a, by wywo³aæ bardziej humorystyczny ni¿ zabójczy efekt. Wynika z tego, ¿e nizio³ki preferuj¹ rozrywkê ni¿ wiernoœæ historyczn¹.
+
+PARAMETRY:
+
+Obra¿enia: +3
+TraK0: +3
+Waga: 0
+OpóŸnienie: 3
+Rodzaj bieg³oœci: proca
+Typ broni: 1-rêczna
+Wymagana si³a: 3~
+    
+@1046411 = ~A wiêc? Czy przyjmiecie wyzwanie? Czy bêdziecie walczyæ z istot¹, któr¹ sam wybiorê, niewolnikiem z powierzchni... (chichocze)... a my zobaczymy, czy prze¿yjecie?~
+@1046419 = ~A wiêc! Czy zgadzacie siê, smaczne k¹ski... czy... (chichocze)... czy odmawiacie?~
+@1046480 = ~WiêŸniem? (chichocze) Jesteœ wybrañcem Sekolaha, mój ma³y smaczny k¹sku! Zes³a³o ciê nam proroctwo!~
+@1046492 = ~Dobrze. Czym mniej rebeliantów dooko³a, tym lepiej. Ocalicie miasto i zostaniecie wynagrodzeni... wszyscy bêd¹ szczêœliwi! (chichocze) Poza Villynatym.~
+@1046496 = ~Tak, nasze kap³anki powiedz¹ wam jak dostaæ siê do obozu rebeliantów. Oni siê zamknêli magi¹, wiecie. IdŸcie i zniszczcie ich. (chichocze)~
+@1048995 = ~Kamieñ mi rozkazuje, a ja muszê go s³uchaæ. Ta zbroja to dar dla zdrowych na umyœle. Rebus, zagadka, nagroda. W ten sposób mój dom zbudowano i wype³ni³em me obowi¹zki. Dobrze siê sprawujesz.~
+@1046677 = ~(wzdycha) Ale bez nich atak jest niemo¿liwy. Dobrze... Pewnie trzeba bêdzie pomyœleæ o jakiejœ nagrodzie, choæ nie mam nic, co móg³bym wam daæ, dopóki nie obejmê tronu.~
+@1046834 = ~(wzdycha)~
+@1057518 = ~Uwiêziony mag?
+
+Duergar z Podmroku powiedzia³, ¿e w czasie bitwy Uwiêziono maga. Chcia³ odkopaæ jakiœ skarb czy artefakt ale go zaatakowano. Duergar powiedzia³, ¿e zdarzy³o siê to w pieczarze na pó³noc. Czar lub zwój Uwolnienia u¿yty w jaskiniach Podmroku powinien oswobodziæ tego maga.~
+@1006653  = ~W³ócznia +3: 'K¹sacz'
+
+Ta ob³o¿ona kl¹tw¹ w³ócznia przy pobie¿nym zbadaniu bêdzie siê jawi³a jako zwyk³a broñ magiczna. Jednak w czasie walki po ka¿dym udanym ataku na wroga, w³ócznia zaatakuje równie¿ tego, kto ni¹ w³ada. Jest to potê¿na broñ, nale¿y jednak nale¿y siê powa¿nie zastanowiæ zanim siê zacznie jej u¿ywaæ. Jedynym sposobem uwolnienia siê od tej w³óczni jest poddanie siê dzia³aniu czaru Zdjêcie kl¹twy.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ W³adaj¹cy otrzymuje 3 obra¿enia (k³ute) po ka¿dym trafieniu
+Waga: 5
+OpóŸnienie: 6
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@1007672  = ~Palec œmierci (Nekromancja)
+Poziom: 7
+Zasiêg: pole widzenia
+Czas dzia³ania: sta³y
+Czas rzucania: 5
+Obszar dzia³ania: 1 istota
+Rzut obronny: neguje
+
+Palec œmierci wysysa z ofiary si³y ¿yciowe. Po wyrecytowaniu zaklêcia czarodziej wskazuje palcem ofiarê i dos³ownie wyrywa z niej ¿ycie, chyba ¿e uda siê jej wykonaæ rzut obronny na czary z modyfikatorem -2. Istota, której uda³o siê odeprzeæ czar i tak otrzymuje 2K8+1 obra¿eñ.~
