@@ -1,0 +1,11 @@
+
+// TODO: 62160-62328 where tob starts?
+STRING_SET_RANGE #0 #62160 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/gtu.tra~
+
+ACTION_IF FILE_EXISTS_IN_GAME mel01.cre BEGIN // ToB
+    STRING_SET_RANGE #62328 #74105 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/gtu.tra~
+END
+
+    
+
+    

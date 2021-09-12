@@ -37,7 +37,8 @@ BEGIN @1
     REQUIRE_PREDICATE (GAME_IS "bgt tob") @9
     REQUIRE_COMPONENT ~setup-bg2fixpack~ ~0~ @5
 
-    INCLUDE ~bgpp-dialog/tpa/bg2-string-set.tpa~
+    INCLUDE ~gtu-pl/tpa/gtu.tpa~ // Fixpack
+    INCLUDE ~gtu-pl/tpa/bg2-string-set.tpa~
 
     ACTION_IF (GAME_IS ~bgt~) THEN BEGIN
         FAIL @3
