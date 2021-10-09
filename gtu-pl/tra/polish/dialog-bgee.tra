@@ -3,7 +3,11 @@
 @10001 = ~Teraz musimy zabraæ g³owê bestii i zanieœæ j¹ do Œwi¹tyni Poranka w Beregoœcie. Tam otrzymamy nasz¹ nagrodê.~
 @10002 = ~„Historia Rzeki Jednoro¿ca”... Jak cudownie! Nie wyobra¿acie sobie nawet, jak bardzo jestem wdziêczna, ¿e mi j¹ przynieœliœcie. Proszê, oto magiczny pergamin, który dosta³am od przyjaciela. Mam nadziejê, ¿e wam siê przyda.~
 @10003 = ~„Historia Rzeki Jednoro¿ca”... Interesuj¹ce... Dam wam za to osiemdziesi¹t sztuk z³ota.~
-// @10004 = ~~
+@10004 = ~Na etykietce tej butelki wina napisano „Marsemberowy Rumieniec – Doskona³y Rocznik” oraz wspomina siê, ¿e jest to „owocowy bukiet, doprawiony korzeniami, o aromacie rosy pokrywaj¹cej p³atki kwiatów”. Winiarnie w Marsember s¹ znane z upraw winogron, zawdziêczaj¹cym swoj¹ s³awê i jakoœæ aromatycznemu morskiemu powietrzu Morza Spadaj¹cych Gwiazd.
+
+PARAMETRY:
+
+Waga: 1~
 @10005 = ~Gulp!~
 @10006 = ~„Ale skoro pytasz, to dobrze by mnie by³o trochê podleczyæ. Trochê mi siê krew psuje... nie chcesz chyba odes³aæ mnie z powrotem w sfery, co? TO by by³ dopiero wstyd...”~
 @10007 = ~000000011-Rozdzia³-4~
@@ -17,13 +21,13 @@ Specjalne:
 
 Waga: 1~
 @10010 = ~Grrrrrrrr!~
-//@10011 = ~~
-//@10012 = ~~
-//@10013 = ~~
-//@10014 = ~~
-//@10015 = ~~
-//@10016 = ~~
-//@10017 = ~~
+@10011 = ~¯ycie ostatnio jest do dupy, mam racjê, przyjaciele? Ta suka, moja ¿ona, zdradza³a mnie z jakimœ cholernym elfem, a teraz ma z nim nawet dzieciaka. Na demony Dziewiêciu Piekie³, ale¿ mia³a tupet, dziwka. Ale ten siê œmieje, kto siê œmieje ostatni. Przekl¹³em to plugawe dziecko i niechybnie umrze wczesn¹ œmierci¹. Mam nadziejê, ¿e ten przeklêty bachor utopi siê w swoich w³asnych rzygowinach.~
+@10012 = ~Nie! One istniej¹ naprawdê i zion¹ ogniem! Pochodz¹ z Dziewiêciu Piekie³! S¹ w stanie stopiæ ¿elazne kraty!~
+@10013 = ~„Ale skoro pytasz, to nie mia³bym nic przeciwko jakiejœ przek¹sce. Mo¿e jakaœ wiewiórka... albo ciastko... o, tak, UWIELBIAM ciastka!”~
+@10014 = ~„Ale skoro pytasz, to dobrze by mnie by³o trochê podleczyæ. Trochê mi siê krew psuje... nie chcesz chyba odes³aæ mnie z powrotem w sfery, co? TO by by³ dopiero wstyd...”~
+@10015 = ~„Ale skoro pytasz, to chcê ci siê na coœ poskar¿yæ. Gdzie s¹ wszystkie MOJE magiczne rzeczy? Chcê du¿y miecz... i jak¹œ torbê... i parê ró¿d¿ek, o tak, ró¿d¿ek...”~
+@10016 = ~Po wszystkim, co przez niego przesz³am, jego cierpienie niemal¿e sprawia mi PRZYJEMNOŒÆ, ale... to w koñcu dziki mag. Nie mogê go tak po prostu zostawiæ, prawda?~
+@10017 = ~... „To nie koza, to moja ¿ona!”. A pijak na to: „Na mszyst¹ brodê Ojca Dêbów, myœla³em, ¿e o¿eni³eœ siê z koz¹!”. Hahaha!~
 @10018 = ~M³ot bojowy jest ca³y wykonany ze stali, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 60 cm d³ugoœci. Ten model m³ota jest specjalnie wywa¿ony co pozwala nim efektywnie rzucaæ.
 
 PARAMETRY:
@@ -76,11 +80,145 @@ Wymagania:
 – Si³a: 6
 
 Waga: 3~
-//@10021 = ~~
-//@10022 = ~~
-//@10023 = ~~
-//@10024 = ~~
-//@10025 = ~~
-//@10026 = ~~
-//@10027 = ~~
-//@10028 = ~~
+@10021 = ~Czynisz mi dys-*czka*-dyshonor. Wcale nie „lubujê” siê w opowiadaniu tej historii. Mam po prostu nadziejê, i¿ ci¹g³e jej powtarzanie sprawi, ¿e inni nie podziel¹ mojego losu. Losu pi-*czka*-pijaka i rozpustnika.~
+@10022 = ~Ws³uchajcie siê w m¹ opowieœæ! Nadstawcie uszu, a¿ebyœcie wykazali si³ê, tam gdzie ja okaza³em s³aboœæ...! Mó-*czka*-mówi³em ju¿ o sile? Hmpf! W ka¿dym razie jako paladyn Zakonu Astra by³em w s³u¿bie u zna-*czka*-znamienitego pana. Nazywa³ siê on Aun Srebrzysty. Ziemia nie nosi³a baa-*czka*-bardziej godnego s³ugi Pana Poranka.~
+@10023 = ~Fenster~
+@10024 = ~Daj ju¿ pokój, przyjacielu. Zaiste, podobaj¹ mi siê dysputy z twoim chomikiem, ale... Chwila, kto to jest? Przecie¿ ja waœæ znam! Waœæ jesteœ <CHARNAME>, prawda?~
+@10025 = ~Dusza Skie
+
+Zrozpaczony Ksi¹¿ê Srebrna Tarcza zak³óci³ mój proces. Dusza jego córki uwiêziona jest w artefakcie zwanym Po¿eraczem dusz. Je¿eli sztylet siê nie odnajdzie, to Skie ju¿ nigdy nie powróci do œwiata ¿ywych.~
+@10026 = ~Tarcza Barnassusa: „£apacz s³oñca”
+
+Setki lat temu Barnassus, kap³an Lathandera, wykona³ tarczê z polerowanego br¹zu i zamierza³ u¿yæ jej w walce z meduz¹, która ponoæ czyha³a w katakumbach pod miastem. Barnassus wytropi³ meduzê w jej gnieŸdzie i dopiero wtedy poj¹³, i¿ nie jest to zwyk³a meduza. Dotknê³a j¹ jeszcze kl¹twa wampiryzmu.
+
+Barnassus zamkn¹³ oczy i ruszy³ do ataku, gotów pokonaæ wroga lub zgin¹æ. Lathander wynagrodzi³ jego mêstwo: kiedy kap³an zabija³ meduzê, pomieszczenie wype³ni³o siê œwiat³em s³onecznym.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +3
+– 15% szans na zadanie 1k4 obra¿eñ od ognia oraz oœlepienie na dwie rundy istoty atakuj¹cej posiadacza (rzut obronny przeciw czarom obni¿a obra¿enia o po³owê oraz neguje oœlepienie)
+– Nie chroni przed pociskami
+
+W³aœciwoœci ³adunków:
+– Ogieñ s³oñca, raz dziennie
+
+Waga: 2~
+@10027 = ~Dwoje oczu, które s¹ Ÿród³em magii tego amuletu, zestarza³o siê i zamieni³o w kamieñ. Na ich bokach wyryto liczbê „331”. Chodz¹ s³uchy, ¿e w³aœcicielem tych¿e oczu by³ niewidomy wojownik znany z niezrównanej celnoœci w strzelaniu z ³uku. Wygl¹da na to, ¿e amulet ten obdarza nosz¹c¹ go osobê czêœci¹ tych umiejêtnoœci.
+
+PARAMETRY:
+
+Specjalne:
+– Szansa na trafienie krytyczne: +5% (tylko ataki dystansowe)
+– Zrêcznoœæ: +1 (+2 w przypadku ³uczników)
+
+Waga: 1~
+@10028 = ~Najdro¿szy Agythi,
+
+Nadejœcie twojego listu sprawi³o mi ogromn¹ radoœæ. Korespondencja z czytelnikami moich ksi¹¿ek to wyj¹tkowa przyjemnoœæ, zw³aszcza gdy mogê dowiedzieæ siê, jak wielki wp³yw na ich ¿ycie wywar³y moje rady. Imponuj¹cy jest te¿ fakt, i¿ uda³o Ci siê napisaæ ten list bez u¿ycia r¹k. Zak³adam, ¿e na przysz³oœæ weŸmiesz sobie do serca moj¹ po wielokroæ powtarzan¹ mantrê: „Nie si³uj siê z rozwœcieczonym ogrem. W zasadzie, nie si³uj siê z ¿adnym ogrem, jeœli tylko mo¿na tego unikn¹æ”.
+
+Po Twoim liœcie wnoszê, i¿ w kwestii zmagañ z ogrami moje rady nie przyda³y Ci siê tak bardzo, jak móg³bym na to liczyæ. Chcia³bym zapytaæ Ciê o wydarzenia, które doprowadzi³y do tak niefortunnego obrotu spraw.
+
+1) W jaki sposób znalaz³eœ siê poœród zgrai dzikich, ¿¹dnych krwi ogrów? Na przestrzeni lat przygotowa³em wiele sugestii i strategii, dziêki którym rozwa¿ny poszukiwacz przygód móg³by z powodzeniem unikaæ takich sytuacji. Zastosowanie siê choæby tylko do mojej rady dotycz¹cej zabezpieczenia swojego domu i czêstotliwoœci, z jak¹ nale¿y go opuszczaæ (sugerujê nigdy), z pewnoœci¹ zapobieg³oby wyst¹pieniu takich okolicznoœci.
+
+2) Kto wyzwa³ kogo na próbê si³ w zapasach? Doprawdy mam nadziejê, ¿e by³ to pomys³ ogra. Jeœli by³a to twoja inicjatywa, obawiam siê, ¿e mia³a pewne wady, które s¹ obecnie boleœnie wrêcz ewidentne.
+
+3) Czy rozwa¿a³eœ wybranie sobie zajêcia, które wi¹za³oby siê z mniejszym ryzykiem utraty r¹k za spraw¹ krwio¿erczego ogra? Przygody nie s¹ dla ka¿dego i przy braku odpowiedniej ostro¿noœci ³atwo mo¿na siê na nich potkn¹æ. Tylko nieliczni szczêœliwcy dostêpuj¹ chwa³y, jak¹ niesie ze sob¹ ¿ycie pe³ne akcji i eksploracji. Choæ pozosta³ym nie jest ona dana, nie ma ¿adnej ujmy w funkcjonowaniu jako rolnik, kurtyzana, krawiec czy wiele innych, bardziej banalnych zawodów. Koniec koñców, ktoœ musi czyœciæ mi buty.
+
+Cokolwiek by³o przyczyn¹ twojego op³akanego stanu, mam nadziejê, ¿e pociechê przyniesie Ci egzemplarz mojej najnowszej ksi¹¿ki, który do³¹czam do listu. Specjalnie dla Ciebie, jako mojego sta³ego czytelnika, ksi¹¿kê opatrzy³em autografem, a mój pos³aniec da Ci dziesiêæ procent zni¿ki od standardowej ceny. Niech lektura wype³nia Twój okres rekonwalescencji, dostarczaj¹c wra¿eñ intelektualnych i estetycznych.
+
+Pozdrawiam najserdeczniej,
+Alveus Malcanter~
+@10029 = ~Wydaje ci siê, ¿e mo¿esz KONTROLOWAÆ potêgê Bhaala? Uwa¿asz, ¿e kr¹¿¹ca w twej krwi esencja samej œmierci poddaje siê twej woli? To nies³ychanie, hmm, œmia³e za³o¿enie. ¯aden œmiertelnik nie mo¿e oprzeæ siê przemo¿nej mocy bóstwa.~
+@10030 = ~Nie mo¿na uciec przed w³asn¹ przysz³oœci¹. Niewa¿ne co zrobisz, przysz³oœæ siêgnie po ciebie prêdzej czy póŸniej. BÊDZIESZ musia³ podj¹æ decyzjê. Podejmiesz j¹ albo zginiesz.~ ~Nie mo¿na uciec przed w³asn¹ przysz³oœci¹. Niewa¿ne co zrobisz, przysz³oœæ siêgnie po ciebie prêdzej czy póŸniej. BÊDZIESZ musia³a podj¹æ decyzjê. Podejmiesz j¹ albo zginiesz.~
+@10031 = ~Pada na mnie œwiat³o samej Caelar Srebrzystej. Nie pope³niam ¯ADNYCH b³êdów. Wynoœcie siê st¹d.~
+@10032 = ~Po prostu porozmawiaj ze mn¹. Tylko o to proszê. Chcê pos³uchaæ czegoœ innego ni¿... BOGOWIE, ADOY, ZAMKNIJ SIÊ DO CHOLERY ALBO ZABIJÊ CIÊ W ŒCIŒLE METAFORYCZNYM SENSIE... jego.~
+@10033 = ~Aha... I wtedy Frixis powiedzia³, ¿e JA uwielbiam niebieskie migda³y. Nie mia³ pojêcia.~
+@10034 = ~Witam. Pierwszak, prawda? WYDAWA£O mi siê, ¿e wyl¹dujemy w Pierwszej Sferze Materialnej, ale do koñca nie mia³em pewnoœci, zw³aszcza po tej... interferencji.~
+@10035 = ~Dwadzieœcia lat, mówisz? Jeœli nie chcesz trafiæ DWADZIEŒCIA metrów pod ziemiê, to radzê uwa¿niej dobieraæ s³owa.~
+@10036 = ~Twój chowaniec wydaje siê byæ zachwycony otaczaj¹c¹ was rzezi¹. „O, tak! Wyr¿n¹æ ich! Dusze i krew! Krew i dusze! W³aœnie o to w tym wszystkim chodzi!”.~
+@10037 = ~„Noo, jasne. WsadŸ mnie do swoich cuchn¹cych tobo³ków. Mo¿e by tam w³o¿yæ trochê miêty, co? B³eee...”. *niechêtnie wpe³za do œrodka*~
+@10038 = ~MIECZU, PRZEDSTAWIAM CI Z£O!~
+@10039 = ~Katana +1~
+@10040 = ~Amulet Mizheny
+
+Na przedzie tego niewyró¿niaj¹cego siê niczym szczególnym amuletu wyryto symbol Tempusa, ty³ zaœ zdobi¹ podwójne inicja³y.
+
+PARAMETRY:
+
+Waga: 1~
+@10041 = ~Umagicznienie katany nie jest prost¹ spraw¹. W przeciwieñstwie do konwencjonalnych broni, katana jest ju¿ z za³o¿enia niemal doskona³ym mieczem do walki. Trzeba ogromnych poœwiêceñ, aby jeszcze j¹ ulepszyæ, np. umieraj¹cy samuraj mo¿e ub³agaæ Wu Jena, aby jego waleczny duch zosta³ przelany na katanê. Osoba w³adaj¹ca zaczarowan¹ katan¹, tak¹ jak ta, musi szanowaæ obyczaje Kara-Tur oraz samuraja, który niegdyœ dzier¿y³ to ostrze w boju. Nieprzestrzeganie tego nakazu mo¿e spowodowaæ gwa³town¹ odmianê losu na gorsze.
+
+PARAMETRY:
+
+Obra¿enia: 1k10 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 3
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 5~
+@10042 = ~Srebrzysta ciêciwa tej eleganckiej broni lœni niczym srebrne nici ³¹cz¹ce Astralnych Podró¿ników z ich cia³ami. Legendy g³osz¹, ¿e pewien deva stworzy³ tê broñ z fragmentów dusz astralnych podró¿ników. Dobrowolnie oddali oni cz¹stki w³asnych dusz, aby z ich pomoc¹ powsta³a broñ s³u¿¹ca dobru. Deva przekaza³ tê kuszê bojownikowi dobra w Sferze œmiertelnej, a on u¿ywa³ jej przez wiele lat, nim zgin¹³ w szponach glabrezu.
+
+PARAMETRY: 
+
+Specjalne:
+– Przy trafieniu krytycznym ofiara, ogarniêta wizj¹ opuszczenia cia³a przez jej duszê, upada nieprzytomna na ziemiê (bez rzutu obronnego)
+
+Obra¿enia: +2, +4 przeciw z³ym istotom
+TraK0: +2, +4 przeciw z³ym istotom
+Typ obra¿eñ: pocisk
+OpóŸnienie: 3
+Rodzaj bieg³oœci: kusza
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 8
+
+Waga: 5~
+@10043 = ~Dziennik
+
+14 Eleint 1365: Dziœ Cormyr zakaza³ ¯elaznemu Tronowi dzia³aæ w jego granicach. To wielki cios i idealna okazja dla Rieltara, by wyst¹pi³ ze sw¹ propozycj¹ przed Najwy¿sz¹ Rad¹ Tronu. Jeœli wszystko dobrze pójdzie, rozpoczniemy prace w przeci¹gu roku.
+
+25 Marpenoth 1365: Davaeorn wys³a³ Rieltarowi wiadomoœæ, informuj¹c go, ¿e kopalnie w Kniei Otulisko zosta³y oczyszczone i mo¿na je wykorzystaæ. Te rewelacje bardzo pomog¹ w przekonaniu Najwy¿szej Rady Tronu.
+
+2 Nightal 1365: Rada ¯elaznego Tronu zgodzi³a siê wesprzeæ plan Rieltara. Otrzyma on wszelk¹ potrzebn¹ pomoc i oczywiœcie zostanie przywódc¹ ca³ego przedsiêwziêcia. Wyrazi³em swe zainteresowanie i mój „ojciec” obieca³ w³¹czyæ mnie do dzia³añ tocz¹cych siê wzd³u¿ Wybrze¿a Mieczy. Wspomnia³ w rozmowie o matce – stwierdzi³, ¿e nie mogê byæ mu tak niewierny, jak ona. Jego groŸby s¹ nêdzne i p³askie; na szczêœcie ju¿ wkrótce nie bêdê ich wys³uchiwa³. Da³ mi jasno do zrozumienia, ¿e jeœli coœ takiego siê zdarzy, podzielê jej los. Zdecydowa³em siê w koñcu odwiedziæ Candlekeep. Spêdzam wiele czasu nad przepowiedniami Alaunda. Muszê w koñcu siê dowiedzieæ, czy sny mówi¹ prawdê. Nie uwierzê s³owom mira¿y bez ¿adnego dowodu, a kap³an Bhaala, z którym siê spotka³em, nie powiedzia³ mi nic nowego. By³ stary i szybko zmar³ w mym uœcisku. Jeœli owe s³owa s¹ prawdziwe, bêdê musia³ znaleŸæ silniejszych akolitów ni¿ on.
+
+11 Ches 1366: Moje badania posuwaj¹ siê naprzód. Mnisi w Candlekeep s¹ bardzo pomocni. Z tego, co przeczyta³em, wynika, i¿ rzeczywiœcie w moich ¿y³ach p³ynie krew Bhaala. Jego przepowiednie s¹ (oczywiœcie) niejednoznaczne, ale wydaje mi siê, ¿e je rozumiem. Przewidzia³ nadchodz¹c¹ œmieræ i rozsia³ sw¹ esencjê po œwiecie. Urodzone w wyniku tego dzieci nosz¹ œlad chaosu, posiadaj¹ potêgê i zapewne czuj¹ p³yn¹c¹ w ¿y³ach krew boga. Œmierci, do których doprowadz¹, obudz¹ ich ojca i pozwol¹ mu raz jeszcze powstaæ. Przepowiednie nie mówi³y tego wprost, ale mo¿na siê domyœliæ, ¿e zadane przez dzieci œmierci pozwol¹ im wznieœæ siê ku panteonowi. Tak wiêc mój ojciec jest Panem Mordu i dowodem wartoœci bêdzie czyn odpowiadaj¹cy jego wizerunkowi. Wiem ju¿, co muszê uczyniæ. Spowodowaæ rzeŸ na iœcie bosk¹ skalê.
+
+3 Tarsahk 1366: Niepokoi mnie mnich Gorion. Chyba zainteresowa³ siê moimi badaniami. Muszê pracowaæ w jeszcze wiêkszej tajemnicy. Chcia³bym go po prostu zabiæ, ale w¹tpiê, czy zdo³a³bym zamordowaæ kogoœ w tej przeklêtej bibliotece bez ¿adnego rozg³osu.
+
+11 Tarsahk 1366: Tej nocy mia³em sen. Mówi³a do mnie matka, ale jej twarz by³a napuchniêta i blada. Z ka¿dym s³owem jej g³os by³ coraz s³abszy. Prosi³a mnie, bym uratowa³ j¹ przed Rieltarem. Widzia³em garotê przecinaj¹c¹ jej szyjê, ale nic nie zrobi³em. To by³ tylko sen.
+
+27 Tarsahk 1366: Opuszczam ju¿ Candlekeep – ani chwili za wczeœnie, jestem bowiem pewien, ¿e Gorion odkry³ moje dziedzictwo. Jeszcze jednej rzeczy jestem teraz pewien: <CHARNAME> równie¿ jest dzieckiem Bhaala. Wskazuj¹ na to wszystkie znaki, a ponadto fakt ten wyjaœni³by zainteresowanie Goriona moimi studiami. Có¿, teraz nic nie mogê uczyniæ, muszê jednak postaraæ siê wróciæ i zabiæ bachora. G³upot¹ by³oby pozwoliæ ¿yæ rodzeñstwu – szczególnie temu, którym interesuj¹ siê Harfiarze (jestem pewien, ¿e w³aœnie z nimi zwi¹zany jest Gorion).
+
+5 Mirtul 1366: Dziœ spotka³em siê z Rieltarem we Wrotach Baldura. G³upiec wci¹¿ upiera siê przy nazywaniu mnie synem, na co na razie mu pozwalam. Pewnie uwa¿a, ¿e jestem lojalny, gdy¿ mnie wychowa³. Có¿, bêdê lojalny, póki bêdzie mi to pasowa³o. Za³o¿y³ siedzibê w dworze zubo¿a³ej szlachty i powiedzia³, ¿e wszystko idzie zgodnie z planem. Mulahey zainstalowa³ siê w kopalniach Nashkel, a jego koboldy zaczê³y zanieczyszczaæ rudê ¿elaza. Jedynie kilku niewolników zajmuje siê wydobywaniem rudy z kopalni w Kniei Otulisko, ale Rieltar zapewni³ mnie, ¿e gdy rozpoczn¹ siê napady bandytów, szybko bêdziemy mieli wiêcej zniewolonej si³y roboczej.
+
+8 Hammer 1367: Spotka³em siê z przywódcami Ch³odu i Czarnych Szponów. Niezbyt podoba³ mi siê Ardenor, wódz Ch³odu, ale Taurgosz na szczêœcie wygl¹da na s³ownego mê¿czyznê. To dobrze, gdy¿ przez resztê roku bêdê musia³ pracowaæ z najemnikami.
+
+3 Tarsahk 1368: Wszystko zmierza w dobrym kierunku. Ruda z Nashkel straci³a na jakoœci, a moi najemnicy œwietnie daj¹ sobie radê z rozbijaniem karawan wioz¹cych ¿elazo do Wrót Baldura. Z³apano kilku moich podw³adnych, ale i tak wiêkszoœæ uwa¿a, ¿e pracuj¹ oni dla Zhentarimów, wiêc na ¯elazny Tron nie powinny spaœæ ¿adne k³opoty. Jestem pewien, ¿e Zhentarimowie z Mrocznej Twierdzy nie bêd¹ zadowoleni, kiedy siê dowiedz¹, i¿ ktoœ podszywa siê pod ich imiê. W najbli¿szym czasie bêdê musia³ uwa¿aæ na ich agentów.
+
+28 Tarsahk 1368: Chyba w koñcu nadszed³ moment za³atwienia sprawy z tym starym g³upcem Gorionem i ma³ym bachorem. Muszê poinformowaæ mych podw³adnych, ¿e nie bêdzie mnie przez najbli¿sze kilka tygodni.
+
+? Myrtle
+
+Nie mam czasu, by pisaæ, ale nie powinienem tak zaniedbywaæ mego pamiêtnika. Przysz³oœæ musi poznaæ, jak Pan Mordu narodzi³ siê na nowo. Jeœli czas pozwoli, najmê skrybê. Nie wszystko posz³o tak, jak to sobie zaplanowa³em, ale wci¹¿ jeszcze istnieje szansa naprawienia ca³ej sprawy. <CHARNAME> kieruje siê do Wrót Baldura. Jeœli zdo³am zwabiæ bachora do Candlekeep, to bêdê mia³ œwietnego koz³a ofiarnego. Mój „ojciec” spotyka siê tam z Rycerzami Tarczy. I utr¹ca wszystkie moje starania maj¹ce na celu wzrost wrogoœci miêdzy Amn i Wrotami Baldura. Muszê uwolniæ siê od niego i od jego sprzymierzeñców, a potem przej¹æ kontrolê nad ¯elaznym Tronem. Nie mogê pozwoliæ, by ma³ostkowe interesy i pragnienie bogactwa pokrzy¿owa³y moje plany. Przykro mi, „ojcze”, ale wzywa mnie zew mej prawdziwej krwi. Muszê dok³adnie poinstruowaæ sobowtórniaki, jak maj¹ zabiæ Rieltara. Myœlê, ¿e garota doskonale siê do tego nada.
+
+(Dziennik wydaje siê bardzo wa¿ny. Lepiej trzymaj go przez ca³y czas przy sobie.)~
+@10044 = ~Có¿... Wydaje mi siê, ¿e twoja mama powinna odpowiedzieæ na to pytanie.~
+@10045 = ~Zapytany o przesz³oœæ, YESLICK cicho wspomnia³, ¿e niegdyœ by³ cz³onkiem krasnoludzkiego klanu Orothiar. Przez pokolenia wydobywali oni rudê ¿elaza z kopalni, która by³a ich domem, a która znajdowa³a siê w sercu Kniei Otulisko. Jakieœ sto lat temu zdarzy³o siê nieszczêœcie. Krasnoludy, mimo ¿e s¹ wspania³ymi górnikami, czasem równie¿ pope³niaj¹ b³êdy. Podczas zag³êbiania siê coraz dalej natrafili na podziemn¹ rzekê, której wody zala³y niemal ca³¹ kopalniê, wybijaj¹c prawie wszystkich cz³onków klanu. Yeslick jako jeden z niewielu przetrwa³ i wyruszy³ do Sembii, by rozpocz¹æ nowe ¿ycie. 
+
+Pozna³ tam Rieltara, cz³onka ¯elaznego Tronu, który wynaj¹³ go jako osobistego kowala. Po pewnym czasie zaprzyjaŸnili siê i Yeslick opowiedzia³ mu o swej przesz³oœci. To by³ b³¹d, albowiem Rieltar wykorzysta³ zdobyte informacje do stworzenia planu ekspansji ¯elaznego Tronu na Wybrze¿e Mieczy. Fa³szywy przyjaciel zdradzi³ Yeslicka i zmusi³ go do wyjawienia lokalizacji kopalni, jednoczeœnie wiê¿¹c go, by nikomu ju¿ o tym nie powiedzia³. Teraz krasnolud pragnie tylko naprawiæ z³o, do którego siê przyczyni³, wyjawiaj¹c lokalizacjê kopalni swych przodków.~
+@10046 = ~Na pierwszy rzut oka ta lœni¹ca z³otem korona wygl¹da doprawdy imponuj¹co, w rzeczywistoœci zosta³a jednak wykonana ze z³ota g³upców, a „klejnoty”, którymi j¹ ozdobiono, s¹ tak naprawdê kawa³kami barwionego szk³a. Za³o¿ona na g³owê pozwala przygotowaæ nosz¹cemu wiêcej czarów, jednoczeœnie wype³niaj¹c jego umys³ fa³szyw¹ wiedz¹.
+
+PARAMETRY:
+
+Specjalne:
+– Pozwala zapamiêtaæ dwa dodatkowe zaklêcia 3. poziomu i po jednym dodatkowym zaklêciu maga z poziomów 4. i 5.
+– Wiedza: -30
+
+Waga: 1~

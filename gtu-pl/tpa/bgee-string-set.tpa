@@ -1,13 +1,17 @@
+/* Encoding: UTF-8 */
 
-// zostawi� -> zostawi�a
+// zostawił -> zostawiła
 STRING_SET 9662 @10000
 
-// ja -> j�
+// ja -> ją
 STRING_SET 16789 @10001
 
-// ...� -> �...
+// ...” -> ”...
 STRING_SET 15141 @10002
 STRING_SET 15144 @10003
+
+// Marsember Blush -> Marsemberowy Rumieniec
+STRING_SET 17268 @10004
 
 // Pije -> Gulp!
 STRING_SET 16233 @10005
@@ -16,11 +20,11 @@ STRING_SET 26240 @10005
 // *To* -> TO
 STRING_SET 31563 @10006
 
-// Removed '-Pocz�tek' from save file name
+// Removed '-Pocz�tek' from save file name
 STRING_SET 32733 @10007
 
 // Tanar'ri -> tanar'ri
-// .� -> �.
+// .” -> ”.
 STRING_SET 27131 @10008
 
 // Params in new line
@@ -29,9 +33,80 @@ STRING_SET 17667 @10009
 // grrrrrrrr -> Grrrrrrrr!
 STRING_SET 29955 @10010
 
+// Capital "Dziewięciu Piekieł"
+STRING_SET 6442 @10011
+STRING_SET 28090 @10012
+
+// *x* -> X
+STRING_SET 31540 @10013
+STRING_SET 31563 @10014
+STRING_SET 31567 @10015
+
+// Missing ”
+STRING_SET 70511 @10036
+
+// Missing didaskalia
+STRING_SET 31574 @10037
+
+// Katana + 1 -> Katana +1
+STRING_SET 31160 @10039
+
+// Missing –
+STRING_SET 8918 @10043
+
+// niema -> niemal, cały kopalnię -> całą kopalnię
+STRING_SET 10195 @10045
+
+// ...” -> ...”.
+ALTER_TLK_LIST BEGIN
+    19267 31556 31568 31569 31584 32466
+END BEGIN
+    REPLACE_TEXTUALLY ~...”~ ~...”.~
+END
+
 // syren* -> sirin*
 ALTER_TLK_LIST BEGIN
     10144 15188 26919 26920 31307
 END BEGIN
     REPLACE_TEXTUALLY ~syren~ ~sirin~
+END
+
+// Dusz -> dusz
+ALTER_TLK_LIST BEGIN
+    21259 21260 21938
+END BEGIN
+    REPLACE_TEXTUALLY ~Dusz~ ~dusz~
+END
+
+// Pająków -> pająków
+ALTER_TLK_LIST BEGIN 10279 END BEGIN
+    REPLACE_TEXTUALLY ~Zguba Pająków~ ~Zguba pająków~
+END
+
+// ” -> ”.
+ALTER_TLK_LIST BEGIN
+    1230 1235 7934 13671 /*23709*/
+END BEGIN
+    REPLACE_TEXTUALLY ~”~ ~”.~
+END
+
+// !” -> !”.
+ALTER_TLK_LIST BEGIN
+    2490 2495 15147 17924 18239 19269 20709 23709 28598 30719 
+END BEGIN
+    REPLACE_TEXTUALLY ~!”~ ~!”.~ 
+END
+
+// ?” -> ”?
+ALTER_TLK_LIST BEGIN
+    2570 29201 31527 31548
+END BEGIN
+    REPLACE_TEXTUALLY ~?”~ ~”?~
+END
+
+// ...<space><text> -> ...<text>
+ALTER_TLK_LIST BEGIN
+    18300 22696 26792 28910
+END BEGIN
+    REPLACE_TEXTUALLY ~^\.\.\. ~ ~...~
 END

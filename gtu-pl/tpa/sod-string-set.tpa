@@ -1,5 +1,166 @@
+/* Encoding UTF-8 */
+
+// Duplicated statement and missing dot
+STRING_SET 59427 @10017
 
 // Missing throwing hammer descriptions
 STRING_SET 62436 @10018
 STRING_SET 62438 @10019
 STRING_SET 62440 @10020
+
+// Removed incorrect space
+STRING_SET 58413 @10021
+
+// Hrmph -> Hmpf
+STRING_SET 58418 @10022
+
+// Fenster. -> Fenster
+STRING_SET 34426 @10023
+
+// Wasć -> Waść
+STRING_SET 56946 @10024
+
+// Fixed item description
+STRING_SET 45915 @10026
+STRING_SET 34031 @10027
+STRING_SET 67266 @10028
+
+// *x* -> X
+STRING_SET 36118 @10016
+STRING_SET 37344 @10029
+STRING_SET 37676 @10030
+STRING_SET 42567 @10031
+STRING_SET 53048 @10032
+STRING_SET 53263 @10033
+STRING_SET 55290 @10034
+STRING_SET 58131 @10035
+
+// Removed !
+STRING_SET 68060 @10038
+
+// Missing item STATISTICS
+STRING_SET 71317 @10040
+
+// Missing new line after proficiency type + damage type in new line
+STRING_SET 31161 @10041
+STRING_SET 45259 @10042
+
+// Changed ... at the beginning
+STRING_SET 35423 @10044
+
+// Missing . in numbers
+STRING_SET 34003 @10046
+
+// sejmitar -> wakizashi
+ALTER_TLK_LIST BEGIN
+    55841
+END BEGIN
+    REPLACE_TEXTUALLY ~sejmitar~ ~wakizashi~
+END
+
+// Dusz -> dusz
+STRING_SET 69817 @10025
+ALTER_TLK_LIST BEGIN
+    69810 69830
+END BEGIN
+    REPLACE_TEXTUALLY ~Dusz~ ~dusz~
+END
+
+// księżn* -> Księżn*
+ALTER_TLK_LIST BEGIN
+    63923 63945 64519 65063
+END BEGIN
+    REPLACE_TEXTUALLY ~księżn~ ~Księżn~
+END
+
+// Missing ,
+ALTER_TLK_LIST BEGIN
+    45217 45228
+END BEGIN
+    REPLACE_TEXTUALLY ~ raz dziennie~ ~, raz dziennie~
+END
+
+// !” -> !”.
+ALTER_TLK_LIST BEGIN
+    37011 38202 41010 41745 45232 45798 50819 52514 56256 60788 69549 69554 69577 70503 70505 70512
+END BEGIN
+    REPLACE_TEXTUALLY ~!”~ ~!”.~ 
+END
+
+// ...” -> ...”.
+ALTER_TLK_LIST BEGIN
+    44987 49218 69608
+END BEGIN
+    REPLACE_TEXTUALLY ~...”~ ~...”.~
+END
+
+// Przy -> przy
+ALTER_TLK_LIST BEGIN
+    64362 70157
+END BEGIN
+    REPLACE_TEXTUALLY ~Fortu Przy Moście~ ~Fortu przy Moście~
+END
+
+// Katana -> katana
+ALTER_TLK_LIST BEGIN 34019 END BEGIN
+    REPLACE_TEXTUALLY ~: Katana~ ~: katana~
+END
+
+// Zakapturzony Mężczyzna -> zakapturzony mężczyzna
+ALTER_TLK_LIST BEGIN 52704 END BEGIN
+    REPLACE_TEXTUALLY ~Zakapturzonego Mężczyznę~ ~zakapturzonego mężczyznę~
+END
+
+// Missing : after TraK0
+ALTER_TLK_LIST BEGIN
+    31708 34013
+END BEGIN
+    REPLACE_TEXTUALLY ~TraK0~ ~TraK0:~
+END
+
+// Przyspieszenie -> Szybkość
+ALTER_TLK_LIST BEGIN 51967 END BEGIN
+    REPLACE_TEXTUALLY ~Przyspieszenie rzucania zaklęć~ ~Szybkość rzucania zaklęć~
+END
+
+// Chanegd journal title: Oblężenie Zamku Smoczej Włóczni -> Ważne wydarzenia
+ALTER_TLK_LIST BEGIN
+    59572 59573 66637 66638 67326 69028 56379
+END BEGIN
+    REPLACE_TEXTUALLY ~Oblężenie Zamku Smoczej Włóczni~ ~Ważne wydarzenia~
+    REPLACE_TEXTUALLY ~Oblężenie Smoczej Włóczni~ ~Ważne wydarzenia~
+END
+
+// ” -> ”.
+ALTER_TLK_LIST BEGIN
+    44346 63849 43635
+END BEGIN
+    REPLACE_TEXTUALLY ~”~ ~”.~
+END
+
+// ?” -> ”?
+ALTER_TLK_LIST BEGIN
+    41107 31600 32457 32462 32469 56653 70500 70501 
+END BEGIN
+    REPLACE_TEXTUALLY ~?”~ ~”?~
+END
+
+// Removed ... from the beginning of a sentence
+ALTER_TLK_LIST BEGIN
+    35778 36088 36129 37829 38031 38059 39641 40735 41252 46004 46726 47073 50418 52113 52155 53163
+    53177 56261 56262 57121 59130 59122 59232 /*59427*/ 59493 60491 60886 64333 65104 65163 69659 69925
+END BEGIN
+    REPLACE_TEXTUALLY ~^\.\.\. ~ ~~
+END
+
+// Removed ...
+ALTER_TLK_LIST BEGIN 47984 END BEGIN
+    REPLACE_TEXTUALLY ~\.\.\.~ ~~
+END
+
+// ...<space><text> -> ...<text>
+ALTER_TLK_LIST BEGIN
+    35445 40124 42179 45988 49321 63731 66627
+END BEGIN
+    REPLACE_TEXTUALLY ~^\.\.\. ~ ~...~
+END
