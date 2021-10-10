@@ -1,5 +1,7 @@
 # Baldur's Gate: Korekta dialogów _(Game Text Update)_
 
+**Wersja: 1.0**
+
 Ta mała modyfikacja ma na celu poprawienie błędnie napisanych lub błędnie sformatowanych tekstów z gry Baldur's Gate.
 
 Większość zawartych tutaj błędów z wersji Enhanced Edition zostało również zgłoszonych na forum Beamdoga i powinny one zostać zawarte w następnej łatce oficjalnej gry. 
