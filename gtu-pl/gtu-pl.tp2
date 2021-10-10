@@ -1,7 +1,7 @@
 // Baldur's Gate: Korekta Dialogów
 
 BACKUP ~gtu-pl/backup~
-SUPPORT ~TBD~
+SUPPORT ~https://github.com/Roberciiik/GTU-PL/issues~
 VERSION ~1.0~
 README ~gtu-pl/readme.html~
 ASK_EVERY_COMPONENT
