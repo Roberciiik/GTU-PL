@@ -31,6 +31,7 @@ Modyfikacja musi zostać zainstalowana przed jakimkolwiek innym modem. Jest to s
 - [NearInfinity](https://github.com/Argent77/NearInfinity/releases)
 - [WeiDU](http://www.weidu.org)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [BGforge MLS](https://marketplace.visualstudio.com/items?itemName=BGforge.bgforge-mls)
 - [Git](https://git-scm.com/)
 
 ### Historia wersji

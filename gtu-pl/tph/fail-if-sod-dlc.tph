@@ -1,0 +1,7 @@
+
+DEFINE_ACTION_FUNCTION FAIL_IF_SOD_DLC BEGIN
+    ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN
+        FAIL @2
+    END
+END
+

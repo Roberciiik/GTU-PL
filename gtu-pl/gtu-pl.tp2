@@ -25,6 +25,8 @@ ALWAYS
                 noconvert_array = charsetsNoConvertArray
         END
     END
+
+    INCLUDE ~%MOD_FOLDER%/tph/fail-if-sod-dlc.tph~
 END
 
 LANGUAGE
@@ -35,7 +37,7 @@ LANGUAGE
 /*
 BEGIN @1
     DESIGNATED 10
-    REQUIRE_PREDICATE (GAME_IS "bgt tob") @9
+    REQUIRE_PREDICATE (GAME_IS "tob") @9
     REQUIRE_COMPONENT ~bg2fixpack/setup-bg2fixpack.tp2~ ~0~ @5
 
     FAIL @3
@@ -67,9 +69,7 @@ BEGIN @4
     DESIGNATED 20
     REQUIRE_PREDICATE (GAME_IS "bgee") @9
 
-    ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN
-        FAIL @2
-    END
+    LAF ~FAIL_IF_SOD_DLC~ END
 
     WITH_TRA ~gtu-pl/tra/polish/dialog-bgee.tra~ BEGIN
         // Stringrefs #0-#34000
@@ -140,6 +140,16 @@ BEGIN @6
     REQUIRE_PREDICATE (GAME_IS "bg2ee") @9
 
     FAIL @3
+
+//    COPY_EXISTING ~plat08.itm~ ~override/plat08.itm~
+  //      SAY NAME2 @20007
+    //    SAY DESC @20008
+      //  BUT_ONLY IF_EXISTS
+    
+    //COPY_EXISTING ~slng03.itm~ ~override/slng03.itm~
+      //  SAY NAME2 @20009
+        //SAY DESC @20010
+        //BUT_ONLY IF_EXISTS
     
 BEGIN @7
     DESIGNATED 40
