@@ -88,6 +88,9 @@ STRING_SET 46345 @20047
 // (hii, hii) => (chichocze)
 STRING_SET 46363 @20048 // TODO: (chii, chii) // TODO: (hii, hii)
 
+// Drizzt additional soundset
+STRING_SET 58657 @1058657
+
 STRING_SET
     6073 @1006073
     6653 @1006653

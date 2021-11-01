@@ -48,9 +48,7 @@ BEGIN @1
 
         ACTION_IF (GAME_IS ~bgt~) THEN BEGIN
             FAIL @3
-        END
-        ELSE ACTION_IF (GAME_IS "tob") THEN BEGIN // Classic BG2
-            // Nothing to do...
+            // TODO: add additional Drizzt soundset DRIZZT11-14
         END
         
         COPY_EXISTING ~plat08.itm~ ~override/plat08.itm~

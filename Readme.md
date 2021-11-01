@@ -20,6 +20,7 @@ Modyfikacja musi zostać zainstalowana przed jakimkolwiek innym modem. Jest to s
     - Dodanie (częściowo) brakujących tytułów wpisów do dziennika.
     - Dodanie tytułów wpisów do dziennika dla początków rozdziałów.
     - Zamiana wypowiedzi o syrenach na siriny.
+    - Dodanie referencji udźwiękowienia Drizzta z WoBG.
 - Baldur's Gate: Siege of Dragonspear
     - Poprawienie literówek, interpunkcji i innych błędów.
     - Poprawienie błędnie sformatowanych opisów przedmiotów.

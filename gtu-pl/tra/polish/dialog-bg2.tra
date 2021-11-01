@@ -149,7 +149,9 @@ NajwyraŸniej Saemon Havarian mia³ na myœli w³asny interes gdy proponowa³ mi tran
 @20047 = ~Mów mi jeszcze, baronie Thelokassyil. Czy zatem powinniœmy zwróciæ dar Sekolaha?~
 @20048 = ~(chichocze)~
 
-//
+// Drizzt additional soundset
+@1058657 = ~Hej ty! W koñcu siê spotykamy... S³ysza³em, ¿e podró¿ujesz, podszywaj¹c siê pode mnie! Zas³u¿ na w³asn¹ reputacjê... moje imiê nale¿y do mnie!~ [DRIZZT15]
+/////////////////////////////
 
 @1006073 = ~Pierœcieñ szaleñstwa~
 @1007818 = ~Zguba smoków Arli +3~
