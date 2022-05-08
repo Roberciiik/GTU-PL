@@ -1,0 +1,227 @@
+
+// '4' -> '4.' 
+@34003 = ~Na pierwszy rzut oka ta lśniąca złotem korona wygląda doprawdy imponująco, w rzeczywistości została jednak wykonana ze złota głupców, a „klejnoty”, którymi ją ozdobiono, są tak naprawdę kawałkami barwionego szkła. Założona na głowę pozwala przygotować noszącemu więcej czarów, jednocześnie wypełniając jego umysł fałszywą wiedzą.
+
+PARAMETRY:
+
+Specjalne:
+– Pozwala zapamiętać dwa dodatkowe zaklęcia 3. poziomu i po jednym dodatkowym zaklęciu maga z poziomów 4. i 5.
+– Wiedza: -30
+
+Waga: 1~
+
+// Removed "," after "+1"
+@34031 = ~Dwoje oczu, które są źródłem magii tego amuletu, zestarzało się i zamieniło w kamień. Na ich bokach wyryto liczbę „331”. Chodzą słuchy, że właścicielem tychże oczu był niewidomy wojownik znany z niezrównanej celności w strzelaniu z łuku. Wygląda na to, że amulet ten obdarza noszącą go osobę częścią tych umiejętności.
+
+PARAMETRY:
+
+Specjalne:
+– Szansa na trafienie krytyczne: +5% (tylko ataki dystansowe)
+– Zręczność: +1 (+2 w przypadku łuczników)
+
+Waga: 1~
+
+// Fenster. -> Fenster
+@34426 = ~Fenster~
+
+// '...' -> 'Cóż...' to make the statement more embarrasing
+@35423 = ~Cóż... Wydaje mi się, że twoja mama powinna odpowiedzieć na to pytanie.~
+
+// *przyjemność* -> PRZYJEMNOŚĆ
+@36118 = ~Po wszystkim, co przez niego przeszłam, jego cierpienie niemalże sprawia mi PRZYJEMNOŚĆ, ale... to w końcu dziki mag. Nie mogę go tak po prostu zostawić, prawda?~
+
+// *kontrolować* -> KONTROLOWAĆ
+@37344 = ~Wydaje ci się, że możesz KONTROLOWAĆ potęgę Bhaala? Uważasz, że krążąca w twej krwi esencja samej śmierci poddaje się twej woli? To niesłychanie, hmm, śmiałe założenie. Żaden śmiertelnik nie może oprzeć się przemożnej mocy bóstwa.~
+
+// *będziesz* -> BĘDZIESZ
+@37676 = ~Nie można uciec przed własną przyszłością. Nieważne co zrobisz, przyszłość sięgnie po ciebie prędzej czy później. BĘDZIESZ musiał podjąć decyzję. Podejmiesz ją albo zginiesz.~ ~Nie można uciec przed własną przyszłością. Nieważne co zrobisz, przyszłość sięgnie po ciebie prędzej czy później. BĘDZIESZ musiała podjąć decyzję. Podejmiesz ją albo zginiesz.~
+
+// *żadnych* -> ŻADNYCH
+@42567 = ~Pada na mnie światło samej Caelar Srebrzystej. Nie popełniam ŻADNYCH błędów. Wynoście się stąd.~
+
+// Missing new line before requirements and damage type should be in new line
+@45259 = ~Srebrzysta cięciwa tej eleganckiej broni lśni niczym srebrne nici łączące Astralnych Podróżników z ich ciałami. Legendy głoszą, że pewien deva stworzył tę broń z fragmentów dusz astralnych podróżników. Dobrowolnie oddali oni cząstki własnych dusz, aby z ich pomocą powstała broń służąca dobru. Deva przekazał tę kuszę bojownikowi dobra w Sferze śmiertelnej, a on używał jej przez wiele lat, nim zginął w szponach glabrezu.
+
+PARAMETRY: 
+
+Specjalne:
+– Przy trafieniu krytycznym ofiara, ogarnięta wizją opuszczenia ciała przez jej duszę, upada nieprzytomna na ziemię (bez rzutu obronnego)
+
+Obrażenia: +2, +4 przeciw złym istotom
+TraK0: +2, +4 przeciw złym istotom
+Typ obrażeń: pocisk
+Opóźnienie: 3
+Rodzaj biegłości: kusza
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 8
+
+Waga: 5~
+
+// Added missing "„Łapacz słońca”"
+// Added missing ", raz dziennie"
+@45915 = ~Tarcza Barnassusa: „Łapacz słońca”
+
+Setki lat temu Barnassus, kapłan Lathandera, wykonał tarczę z polerowanego brązu i zamierzał użyć jej w walce z meduzą, która ponoć czyhała w katakumbach pod miastem. Barnassus wytropił meduzę w jej gnieździe i dopiero wtedy pojął, iż nie jest to zwykła meduza. Dotknęła ją jeszcze klątwa wampiryzmu.
+
+Barnassus zamknął oczy i ruszył do ataku, gotów pokonać wroga lub zginąć. Lathander wynagrodził jego męstwo: kiedy kapłan zabijał meduzę, pomieszczenie wypełniło się światłem słonecznym.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +3
+– 15% szans na zadanie 1k4 obrażeń od ognia oraz oślepienie na dwie rundy istoty atakującej posiadacza (rzut obronny przeciw czarom obniża obrażenia o połowę oraz neguje oślepienie)
+– Nie chroni przed pociskami
+
+Właściwości ładunków:
+– Ogień słońca, raz dziennie
+
+Waga: 2~
+
+// *jego* -> „jego”
+@53048 = ~Po prostu porozmawiaj ze mną. Tylko o to proszę. Chcę posłuchać czegoś innego niż... BOGOWIE, ADOY, ZAMKNIJ SIĘ DO CHOLERY ALBO ZABIJĘ CIĘ W ŚCIŚLE METAFORYCZNYM SENSIE... „jego”.~
+
+// *ja* -> JA
+@53263 = ~Aha... I wtedy Frixis powiedział, że JA uwielbiam niebieskie migdały. Nie miał pojęcia.~
+
+// *wydawało* -> WYDAWAŁO
+@55290 = ~Witam. Pierwszak, prawda? WYDAWAŁO mi się, że wylądujemy w Pierwszej Sferze Materialnej, ale do końca nie miałem pewności, zwłaszcza po tej... interferencji.~
+
+// Wasć -> Waść
+@56946 = ~Daj już pokój, przyjacielu. Zaiste, podobają mi się dysputy z twoim chomikiem, ale... Chwila, kto to jest? Przecież ja waść znam! Waść jesteś <CHARNAME>, prawda?~
+
+// *dwadzieścia* -> DWADZIEŚCIA
+@58131 = ~Dwadzieścia lat, mówisz? Jeśli nie chcesz trafić DWADZIEŚCIA metrów pod ziemię, to radzę uważniej dobierać słowa.~
+
+// Removed incorrect space
+@58413 = ~Czynisz mi dys-*czka*-dyshonor. Wcale nie „lubuję” się w opowiadaniu tej historii. Mam po prostu nadzieję, iż ciągłe jej powtarzanie sprawi, że inni nie podzielą mojego losu. Losu pi-*czka*-pijaka i rozpustnika.~
+
+// Hrmph -> Hmpf
+@58418 = ~Wsłuchajcie się w mą opowieść! Nadstawcie uszu, ażebyście wykazali siłę, tam gdzie ja okazałem słabość...! Mó-*czka*-mówiłem już o sile? Hmpf! W każdym razie jako paladyn Zakonu Astra byłem w służbie u zna-*czka*-znamienitego pana. Nazywał się on Aun Srebrzysty. Ziemia nie nosiła baa-*czka*-bardziej godnego sługi Pana Poranka.~
+
+// Duplicated statement and missing dot
+@59427 = ~„...to nie koza, to moja żona!”. A pijak na to: „Na mszystą brodę Ojca Dębów, myślałem, że ożeniłeś się z kozą!”. Hahaha!~
+
+// 'ostrzy' -> 'fetchmistrzów' (blade = bard kit)
+@62241 = ~Za projekt tego przedmiotu odpowiedzialna jest pewna kobieta, parająca się kowalstwem w Cormyrze. Say'an Ostra Klinga znana była z tworzenia najostrzejszych, najlepiej wyważonych i najpiękniejszych ostrzy w królestwie. Była przy tym nieco narwana i wpadała zwykle w szał, gdy widziała, jak jej broniami władają mniej uzdolnieni wojownicy. Do swych najlepszych dzieł dodawała zawsze w prezencie jeden z takich pasów, by być pewną, że stworzony przez nią oręż znajduje się w dobrych rękach.
+
+PARAMETRY:
+
+Specjalne:
+– Premia do obrażeń siecznych: +10%
+– TraK0: +2 dla drugiej ręki (tylko w przypadku fechtmistrzów i zawadiaków)
+
+Waga: 2~
+
+// Missing throwing hammer descriptions
+@62436 = ~Młot bojowy jest cały wykonany ze stali, z dyskami, chroniącymi i wzmacniającymi uchwyt. Dyski te są małe i metalowe, często układane w dekoracyjne kształty. Drzewiec ma około 60 cm długości. Ten model młota jest specjalnie wyważony, co pozwala nim efektywnie rzucać.
+
+PARAMETRY:
+
+Obrażenia (walka wręcz): 1k3 +1 
+Obrażenia (rzucony): 1k4 +1
+Typ obrażeń (walka wręcz): obuchowe
+Typ obrażeń (rzucony): pocisk
+Opóźnienie: 3
+Rodzaj biegłości: młot bojowy
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 2~
+
+// Missing throwing hammer descriptions
+@62438 = ~Tak jak inne młoty bojowe, ten też został wykonany całkowicie ze stali, z kruszącym kości młotem osadzonym na prawie półmetrowym trzonku. Został on też obdarzony pewnymi właściwościami magicznymi, przez co jeszcze lepiej sprawuje się w walce. Ten konkretny model młota jest specjalnie wyważony, co pozwala nim efektywnie rzucać.
+
+PARAMETRY:
+
+Obrażenia (walka wręcz): 1k3 +2 
+Obrażenia (rzucony): 1k4 +2
+TraK0: +1
+Typ obrażeń (walka wręcz): obuchowe
+Typ obrażeń (rzucony): pocisk
+Opóźnienie: 2
+Rodzaj biegłości: młot bojowy
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 1~
+
+// Missing throwing hammer descriptions
+@62440 = ~Młot bojowy jest cały wykonany ze stali, z dyskami, chroniącymi i wzmacniającymi uchwyt. Dyski te są małe i metalowe, często układane w dekoracyjne kształty. Drzewiec ma około 50 cm długości. Potężna energia magiczna przepływa przez tę broń, choć jej pochodzenie jest nieznane. Ten model młota jest specjalnie wyważony, co pozwala nim efektywnie rzucać. Dzięki zawartej w nim magii, po rzucie wraca do właściciela niczym bumerang.
+
+PARAMETRY:
+
+Specjalne:
+– Po rzucie wraca do właściciela
+
+Obrażenia: 1k4 +3
+TraK0: +2
+Typ obrażeń (walka wręcz): obuchowe
+Typ obrażeń (rzucony): pocisk
+Opóźnienie: 1
+Rodzaj biegłości: młot bojowy
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 3~
+
+// Capital first letter in "Nadejście"
+// Added missing space after "3)"
+@67266 = ~Najdroższy Agythi,
+
+Nadejście twojego listu sprawiło mi ogromną radość. Korespondencja z czytelnikami moich książek to wyjątkowa przyjemność, zwłaszcza gdy mogę dowiedzieć się, jak wielki wpływ na ich życie wywarły moje rady. Imponujący jest też fakt, iż udało Ci się napisać ten list bez użycia rąk. Zakładam, że na przyszłość weźmiesz sobie do serca moją po wielokroć powtarzaną mantrę: „Nie siłuj się z rozwścieczonym ogrem. W zasadzie, nie siłuj się z żadnym ogrem, jeśli tylko można tego uniknąć”.
+
+Po Twoim liście wnoszę, iż w kwestii zmagań z ogrami moje rady nie przydały Ci się tak bardzo, jak mógłbym na to liczyć. Chciałbym zapytać Cię o wydarzenia, które doprowadziły do tak niefortunnego obrotu spraw.
+
+1) W jaki sposób znalazłeś się pośród zgrai dzikich, żądnych krwi ogrów? Na przestrzeni lat przygotowałem wiele sugestii i strategii, dzięki którym rozważny poszukiwacz przygód mógłby z powodzeniem unikać takich sytuacji. Zastosowanie się choćby tylko do mojej rady dotyczącej zabezpieczenia swojego domu i częstotliwości, z jaką należy go opuszczać (sugeruję nigdy), z pewnością zapobiegłoby wystąpieniu takich okoliczności.
+
+2) Kto wyzwał kogo na próbę sił w zapasach? Doprawdy mam nadzieję, że był to pomysł ogra. Jeśli była to twoja inicjatywa, obawiam się, że miała pewne wady, które są obecnie boleśnie wręcz ewidentne.
+
+3) Czy rozważałeś wybranie sobie zajęcia, które wiązałoby się z mniejszym ryzykiem utraty rąk za sprawą krwiożerczego ogra? Przygody nie są dla każdego i przy braku odpowiedniej ostrożności łatwo można się na nich potknąć. Tylko nieliczni szczęśliwcy dostępują chwały, jaką niesie ze sobą życie pełne akcji i eksploracji. Choć pozostałym nie jest ona dana, nie ma żadnej ujmy w funkcjonowaniu jako rolnik, kurtyzana, krawiec czy wiele innych, bardziej banalnych zawodów. Koniec końców, ktoś musi czyścić mi buty.
+
+Cokolwiek było przyczyną twojego opłakanego stanu, mam nadzieję, że pociechę przyniesie Ci egzemplarz mojej najnowszej książki, który dołączam do listu. Specjalnie dla Ciebie, jako mojego stałego czytelnika, książkę opatrzyłem autografem, a mój posłaniec da Ci dziesięć procent zniżki od standardowej ceny. Niech lektura wypełnia Twój okres rekonwalescencji, dostarczając wrażeń intelektualnych i estetycznych.
+
+Pozdrawiam najserdeczniej,
+Alveus Malcanter~
+
+// Wierd AC format & HP lowered case 
+@69241 = ~Tarcza ta należała do najemniczki pracującej dla Zakonu Stalowego Kła. Wojownicy z zakonu byli pod wrażeniem jej wytrwałości i odwagi. Bez wahania szarżowała ona do boju, a kiedy ją zraniono, wydawała się walczyć jeszcze zacieklej. Po zakończeniu misji Zakon Stalowego Kła podarował najemniczce topór wojenny w ramach podziękowania za jej zasługi. W zamian, jako wyraz szacunku, ona oddała zakonnikom swoją tarczę. Tarcza była własnością zakonu przez wiele lat, dopóki nie została zgubiona na polu bitwy.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +3 (+4 przeciw pociskom)
+– Odporność na ogień: +25%
+– Kiedy punkty życia posiadacza spadną poniżej 50% wartości maksymalnej, otrzymuje on premię +1 do Siły na pięć rund
+
+Wymagania:
+– Siła: 10
+
+Waga: 4~
+
+// Dusz -> dusz
+@69817 = ~Dusza Skie
+
+Zrozpaczony Książę Srebrna Tarcza zakłócił mój proces. Dusza jego córki uwięziona jest w artefakcie zwanym Pożeraczem dusz. Jeżeli sztylet się nie odnajdzie, to Skie już nigdy nie powróci do świata żywych.~
+
+// Missing „
+// Added dot at the end
+@70511 = ~Twój chowaniec wydaje się być zachwycony otaczającą was rzezią. „O, tak! Wyrżnąć ich! Dusze i krew! Krew i dusze! Właśnie o to w tym wszystkim chodzi!”.~
+
+// Missing "PARAMETRY:"
+// Missing "Waga: 1"
+@71317 = ~Amulet Mizheny
+
+Na przedzie tego niewyróżniającego się niczym szczególnym amuletu wyryto symbol Tempusa, tył zaś zdobią podwójne inicjały.
+
+PARAMETRY:
+
+Waga: 1~
+

@@ -1,59 +1,5 @@
 /* encoding: utf-8 */
 
-// Duplicated statement and missing dot
-STRING_SET 59427 @10017
-
-// Missing throwing hammer descriptions
-STRING_SET 62436 @10018
-STRING_SET 62438 @10019
-STRING_SET 62440 @10020
-
-// Removed incorrect space
-STRING_SET 58413 @10021
-
-// Hrmph -> Hmpf
-STRING_SET 58418 @10022
-
-// Fenster. -> Fenster
-STRING_SET 34426 @10023
-
-// Wasć -> Waść
-STRING_SET 56946 @10024
-
-// Fixed item description
-STRING_SET 45915 @10026
-STRING_SET 34031 @10027
-STRING_SET 67266 @10028
-
-// *x* -> X
-STRING_SET 36118 @10016
-STRING_SET 37344 @10029
-STRING_SET 37676 @10030
-STRING_SET 42567 @10031
-STRING_SET 53048 @10032
-STRING_SET 53263 @10033
-STRING_SET 55290 @10034
-STRING_SET 58131 @10035
-
-// Missing „
-STRING_SET 70511 @10036
-
-// Removed !
-STRING_SET 68060 @10038
-
-// Missing item STATISTICS
-STRING_SET 71317 @10040
-
-// Missing new line after proficiency type + damage type in new line
-STRING_SET 31161 @10041
-STRING_SET 45259 @10042
-
-// Changed ... at the beginning
-STRING_SET 35423 @10044
-
-// Missing . in numbers
-STRING_SET 34003 @10046
-
 // sejmitar -> wakizashi
 ALTER_TLK_LIST BEGIN
     55841
@@ -62,7 +8,6 @@ END BEGIN
 END
 
 // Dusz -> dusz
-STRING_SET 69817 @10025
 ALTER_TLK_LIST BEGIN
     69810 69830
 END BEGIN

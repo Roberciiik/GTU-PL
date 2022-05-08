@@ -14,7 +14,7 @@ ALWAYS
         ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
             "polish" => "CP1250"
         END
-        ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup dialog-bg2 END
+        ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup gtu dialog-bg2 dialog-bgee END
         LAF ~HANDLE_CHARSETS~
             INT_VAR
                 infer_charsets = 0
@@ -73,8 +73,10 @@ BEGIN @4
         // Stringrefs #0-#34000
         INCLUDE ~gtu-pl/tpa/bgee-string-set.tpa~
         ACTION_IF (GAME_INCLUDES "sod") THEN BEGIN
-            // Stringrefs > #34000
-            INCLUDE ~gtu-pl/tpa/sod-string-set.tpa~
+            WITH_TRA ~gtu-pl/tra/polish/dialog-bgee.tra~ BEGIN
+                // Stringrefs > #34000
+                INCLUDE ~gtu-pl/tpa/sod-string-set.tpa~
+            END
         END
     END
 
