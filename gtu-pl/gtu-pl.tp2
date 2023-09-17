@@ -48,7 +48,6 @@ BEGIN @1
 
         ACTION_IF (GAME_IS ~bgt~) THEN BEGIN
             FAIL @3
-            // TODO: add additional Drizzt soundset DRIZZT11-14
         END
         
         COPY_EXISTING ~plat08.itm~ ~override/plat08.itm~
