@@ -1,13 +1,15 @@
 // Baldur's Gate: Korekta dialogów
 
-BACKUP ~weidu_external/backup/gtu-pl~
+BACKUP ~weidu_external/backup/%MOD_FOLDER%~
 SUPPORT ~https://github.com/Roberciiik/GTU-PL/issues~
 VERSION ~1.0~
-README ~gtu-pl/readme/readme.html~
+README ~%MOD_FOLDER%/readme/readme.html~
 ASK_EVERY_COMPONENT
 
 ALWAYS
     ACTION_IF NOT VARIABLE_IS_SET CALL_ALWAYS_ONCE THEN BEGIN
+        OUTER_SET CALL_ALWAYS_ONCE = 1
+        
         OUTER_TEXT_SPRINT ~TEMP_FOLDER~ ~weidu_external/%MOD_FOLDER%/temp~
         MKDIR ~%TEMP_FOLDER%~
 
@@ -20,8 +22,8 @@ ALWAYS
                 INT_VAR
                     infer_charsets = 0
                 STR_VAR
-                    tra_path = "gtu-pl/tra"
-                    iconv_path = "gtu-pl/bin/iconv"
+                    tra_path = EVAL "%MOD_FOLDER%/tra"
+                    iconv_path = EVAL "%MOD_FOLDER%/bin/iconv"
                     charset_table = CHARSET_TABLE
                     noconvert_array = CHARSET_NO_CONVERT_ARRAY
             END
@@ -35,7 +37,7 @@ END
 LANGUAGE
 	~Polski~
 	~polish~
-	~gtu-pl/tra/polish/setup.tra~
+	~%MOD_FOLDER%/tra/polish/setup.tra~
 
 /*
 BEGIN @1
@@ -44,10 +46,10 @@ BEGIN @1
     REQUIRE_COMPONENT ~bg2fixpack/setup-bg2fixpack.tp2~ ~0~ @5
 
     FAIL @3
-    INCLUDE ~gtu-pl/tpa/gtu.tpa~ // To be part of BG2 Fixpack
+    INCLUDE ~%MOD_FOLDER%/tpa/gtu.tpa~ // To be part of BG2 Fixpack
 
-    WITH_TRA ~gtu-pl/tra/polish/dialog-bg2.tra~ BEGIN
-        INCLUDE ~gtu-pl/tpa/bg2-string-set.tpa~
+    WITH_TRA ~%MOD_FOLDER%/tra/polish/dialog-bg2.tra~ BEGIN
+        INCLUDE ~%MOD_FOLDER%/tpa/bg2-string-set.tpa~
 
         ACTION_IF (GAME_IS ~bgt~) THEN BEGIN
             FAIL @3
@@ -87,58 +89,58 @@ BEGIN @4
         END
     END
 
-    WITH_TRA ~gtu-pl/tra/polish/journal.tra~ BEGIN
-        // Added "Chapter 1" to the journal
+    WITH_TRA ~%MOD_FOLDER%/tra/polish/journal.tra~ BEGIN
+        // Added "Chapter 1" to the journal title
         COPY_EXISTING ~ch1cut04.bcs~ ~override/ch1cut04.bcs~
             DECOMPILE_BCS_TO_BAF
-            REPLACE ~16190~ @116190
+            REPLACE ~16190~ @10016190
             COMPILE_BAF_TO_BCS
 
-        // Added "Chapter 2" to the journal
+        // Added "Chapter 2" to the journal title
         COPY_EXISTING ~AR4800.bcs~ ~override/AR4800.bcs~
                     ~AR4900.bcs~ ~override/AR4900.bcs~
                     ~AR5400.bcs~ ~override/AR5400.bcs~
             DECOMPILE_BCS_TO_BAF
-            REPLACE ~15836~ @115836
+            REPLACE ~15836~ @10015836
             COMPILE_BAF_TO_BCS
 
-        // Added "Chapter 3" to the journal
+        // Added "Chapter 3" to the journal title
         COPY_EXISTING ~AR5404.bcs~ ~override/AR5404.bcs~
                     ~AR5405.bcs~ ~override/AR5405.bcs~
             DECOMPILE_BCS_TO_BAF
-            REPLACE ~15837~ @115837
+            REPLACE ~15837~ @10015837
             COMPILE_BAF_TO_BCS
 
-        // Added "Chapter 4" to the journal
+        // Added "Chapter 4" to the journal title
         COPY_EXISTING ~BALDUR.bcs~ ~override/BALDUR.bcs~
             DECOMPILE_BCS_TO_BAF
-            REPLACE ~15838~ @115838
+            REPLACE ~15838~ @10015838
             COMPILE_BAF_TO_BCS
 
-        // Added "Chapter 5" to the journal
+        // Added "Chapter 5" to the journal title
         COPY_EXISTING ~AR1803.bcs~ ~override/AR1803.bcs~
                     ~ENDCH4.bcs~ ~override/ENDCH4.bcs~
                     ~DAVCUT01.bcs~ ~override/DAVCUT01.bcs~
             DECOMPILE_BCS_TO_BAF
-            REPLACE ~15839~ @115839
+            REPLACE ~15839~ @10015839
             COMPILE_BAF_TO_BCS
 
-        // Added "Chapter 6" to the journal
+        // Added "Chapter 6" to the journal title
         COPY_EXISTING ~DELTAN.dlg~ ~override/DELTAN.dlg~
             DECOMPILE_DLG_TO_D
-            REPLACE ~15840~ @115840
+            REPLACE ~15840~ @10015840
             COMPILE_D_TO_DLG
             
-        // Added "Chapter 7" to the journal
+        // Added "Chapter 7" to the journal title
         COPY_EXISTING ~AR2626.bcs~ ~override/AR2626.bcs~
             DECOMPILE_BCS_TO_BAF
-            REPLACE ~15841~ @115841
+            REPLACE ~15841~ @10015841
             COMPILE_BAF_TO_BCS
 
         // Add missing journal titles
         INCLUDE ~%MOD_FOLDER%/tph/add-journal-title.tph~
         LAUNCH_ACTION_FUNCTION ~ADD_JOURNAL_TITLE~
-            STR_VAR Array = "gtu-pl/2da/journal-titles.2da"
+            STR_VAR Array = "%MOD_FOLDER%/2da/journal-titles.2da"
         END
     END
 /*
